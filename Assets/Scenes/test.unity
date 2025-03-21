@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 31421185f339aa04ebf3bc8a3dfdbf27,
+  m_LightingDataAsset: {fileID: 112000000, guid: 1cef8d16cbc80d24498eb90e5ad24161,
     type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: b350a32db7b60e04fa14cb0b3eda9f79,
     type: 2}
@@ -874,11 +874,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e16294e1cb22c54e85a7120cfb67ed0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraSensitivity: 90
-  climbSpeed: 4
-  normalMoveSpeed: 10
-  slowMoveFactor: 0.25
-  fastMoveFactor: 3
 --- !u!114 &1361079521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -891,18 +886,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60e318a6043c1cb4a8ce1c8805bab930, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resolution: 1
-  screenBlendMode: 0
-  sunTransform: {fileID: 0}
-  radialBlurIterations: 2
-  sunColor: {r: 1, g: 0.88009787, b: 0.20144898, a: 1}
-  sunThreshold: {r: 0.87, g: 0.74, b: 0.65, a: 1}
-  sunShaftBlurRadius: 2.5
-  sunShaftIntensity: 1
-  maxRadius: 0.75
-  useDepthTexture: 1
-  sunShaftsShader: {fileID: 4800000, guid: d3b1c8c1036784176946f5cfbfb7fe4c, type: 3}
-  simpleClearShader: {fileID: 4800000, guid: f688f89ed5eb847c5b19c934a0f1e772, type: 3}
 --- !u!114 &1361079522
 MonoBehaviour:
   m_ObjectHideFlags: 0
