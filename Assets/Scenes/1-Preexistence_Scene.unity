@@ -15,7 +15,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 1
-  m_FogColor: {r: 0.5924529, g: 0.5924529, b: 0.5924529, a: 1}
+  m_FogColor: {r: 0.18039216, g: 0.18039216, b: 0.18431373, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.04
   m_LinearFogStart: 0
@@ -25,7 +25,7 @@ RenderSettings:
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 1
-  m_SubtractiveShadowColor: {r: 0.10733346, g: 0.291623, b: 0.7584905, a: 1}
+  m_SubtractiveShadowColor: {r: 0.2784314, g: 0.28627452, b: 0.3137255, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: bfd7bba8c6fda9641a917ce0f8dd58ed, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -34,7 +34,7 @@ RenderSettings:
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 1
   m_DefaultReflectionResolution: 128
-  m_ReflectionBounces: 1
+  m_ReflectionBounces: 5
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 837464051}
@@ -93,8 +93,10 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: a41606e68792a824e937744e0460df2a,
+    type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 507881ac171bdf94594d5387a236a9b0,
+    type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -136,7 +138,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!64 &25577135
 MeshCollider:
@@ -256,7 +258,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 1
-  m_Color: {r: 0.6301887, g: 0.6301887, b: 0.6301887, a: 1}
+  m_Color: {r: 0.3056603, g: 0.3056603, b: 0.3056603, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -296,7 +298,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -440,7 +442,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -488,7 +490,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &1597402031
 AudioListener:
   m_ObjectHideFlags: 0
@@ -622,18 +624,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1691010512586201408, guid: 863e40968f1ef854a842ed11c0e40752,
         type: 3}
+      propertyPath: prewarm
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691010512586201408, guid: 863e40968f1ef854a842ed11c0e40752,
+        type: 3}
       propertyPath: lengthInSec
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1691010512586201408, guid: 863e40968f1ef854a842ed11c0e40752,
         type: 3}
       propertyPath: simulationSpeed
-      value: 0.1
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691010512586201408, guid: 863e40968f1ef854a842ed11c0e40752,
+        type: 3}
+      propertyPath: emitterVelocityMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1691010512586201408, guid: 863e40968f1ef854a842ed11c0e40752,
         type: 3}
       propertyPath: InitialModule.rotation3D
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691010512586201408, guid: 863e40968f1ef854a842ed11c0e40752,
+        type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1691010512586201408, guid: 863e40968f1ef854a842ed11c0e40752,
         type: 3}
@@ -643,7 +660,7 @@ PrefabInstance:
     - target: {fileID: 1691010512586201408, guid: 863e40968f1ef854a842ed11c0e40752,
         type: 3}
       propertyPath: InitialModule.startSpeed.scalar
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1691010512586201408, guid: 863e40968f1ef854a842ed11c0e40752,
         type: 3}
@@ -653,12 +670,67 @@ PrefabInstance:
     - target: {fileID: 1691010512586201408, guid: 863e40968f1ef854a842ed11c0e40752,
         type: 3}
       propertyPath: InitialModule.startLifetime.scalar
-      value: 8
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691010512586201408, guid: 863e40968f1ef854a842ed11c0e40752,
+        type: 3}
+      propertyPath: InitialModule.startRotation.scalar
+      value: 0.017453292
       objectReference: {fileID: 0}
     - target: {fileID: 1691010512586201408, guid: 863e40968f1ef854a842ed11c0e40752,
         type: 3}
       propertyPath: InitialModule.startSpeed.minScalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691010512586201408, guid: 863e40968f1ef854a842ed11c0e40752,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.atime1
+      value: 1002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691010512586201408, guid: 863e40968f1ef854a842ed11c0e40752,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.a
+      value: 0.31072664
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691010512586201408, guid: 863e40968f1ef854a842ed11c0e40752,
+        type: 3}
+      propertyPath: InitialModule.startRotation.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691010512586201408, guid: 863e40968f1ef854a842ed11c0e40752,
+        type: 3}
+      propertyPath: InitialModule.startRotationX.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691010512586201408, guid: 863e40968f1ef854a842ed11c0e40752,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691010512586201408, guid: 863e40968f1ef854a842ed11c0e40752,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.m_ColorSpace
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691010512586201408, guid: 863e40968f1ef854a842ed11c0e40752,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.m_NumAlphaKeys
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691010512586201409, guid: 863e40968f1ef854a842ed11c0e40752,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691010512586201409, guid: 863e40968f1ef854a842ed11c0e40752,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691010512586201409, guid: 863e40968f1ef854a842ed11c0e40752,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1691010512586201409, guid: 863e40968f1ef854a842ed11c0e40752,
         type: 3}
@@ -668,7 +740,7 @@ PrefabInstance:
     - target: {fileID: 1691010512586201409, guid: 863e40968f1ef854a842ed11c0e40752,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 4.21
       objectReference: {fileID: 0}
     - target: {fileID: 1691010512586201409, guid: 863e40968f1ef854a842ed11c0e40752,
         type: 3}
@@ -710,6 +782,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1691010512586201409, guid: 863e40968f1ef854a842ed11c0e40752,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1691010512586201410, guid: 863e40968f1ef854a842ed11c0e40752,
         type: 3}
       propertyPath: m_Name
@@ -718,7 +795,12 @@ PrefabInstance:
     - target: {fileID: 1691010512586201410, guid: 863e40968f1ef854a842ed11c0e40752,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1691010512586201411, guid: 863e40968f1ef854a842ed11c0e40752,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -742,7 +824,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!64 &1908470576
 MeshCollider:
