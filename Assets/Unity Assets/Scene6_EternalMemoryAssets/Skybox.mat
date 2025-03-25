@@ -46,9 +46,9 @@ Material:
     - _AuroraScrollSpeed: {r: 0, g: 0.02, b: 0, a: 0}
     - _AuroraTiling: {r: 1, g: 3.86, b: 0, a: 0}
     - _AuroraTwirlOffset: {r: 0, g: 0, b: 0, a: 0}
-    - _GroundColour: {r: 0.16226411, g: 0.16226411, b: 0.16226411, a: 0}
-    - _HorizonColour: {r: 0.2981131, g: 0.2981131, b: 0.2981131, a: 1}
-    - _SkyColour: {r: 0.060185093, g: 0.11173617, b: 0.2981131, a: 0}
+    - _GroundColour: {r: 0, g: 0, b: 0, a: 0}
+    - _HorizonColour: {r: 0, g: 0, b: 0, a: 1}
+    - _SkyColour: {r: 0.030708391, g: 0.039443884, b: 0.07169801, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &8243463512020084095
