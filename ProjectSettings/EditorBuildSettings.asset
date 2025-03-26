@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/6-EternalMemory_Scene.unity
+    guid: bfc285f897f3272468e337313a69062a
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 16556ae91e08a0b4a847d294c2f5d966,
       type: 2}
