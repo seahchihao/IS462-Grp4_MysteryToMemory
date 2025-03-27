@@ -7,6 +7,9 @@ public class RandomPrefabPlacement : MonoBehaviour
     public MeshCollider boundary;  // Reference to the boundary BoxCollider
     public int numberOfObjects = 10; // Number of prefabs to spawn
     public float minDistance = 0.5f; // Minimum distance between objects to avoid overlap
+    public float minY = 0.5f;
+    public float maxY = 0.5f;
+    public bool enableRotation = true;
 
     private List<Vector3> spawnPositions = new List<Vector3>();  // List to track spawn positions
     private List<GameObject> spawnedObjects = new List<GameObject>();  // List to track spawned objects
@@ -38,8 +41,11 @@ public class RandomPrefabPlacement : MonoBehaviour
             // Add the position to the list to track it
             spawnPositions.Add(randomPosition);
 
-            // Add a RotationController component to handle random rotation
-            newObject.AddComponent<RotationController>();
+            // Add the RotationController script if rotation is enabled
+            if (enableRotation)
+            {
+                RotationController rotationController = newObject.AddComponent<RotationController>();
+            }
 
             // Check if the prefab is unique, if so, increment the counter
             if (!spawnedObjects.Contains(newObject))
@@ -67,7 +73,7 @@ public class RandomPrefabPlacement : MonoBehaviour
         {
             randomPosition = new Vector3(
                 Random.Range(boundaryMin.x, boundaryMax.x), // x within the boundary
-                Random.Range(0.1f, 5f),
+                Random.Range(minY, maxY),
                 Random.Range(boundaryMin.z, boundaryMax.z)  // z within the boundary
             );
 
