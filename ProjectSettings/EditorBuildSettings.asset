@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/1-Preexistence_Scene.unity
+    guid: 369a3e97e4dc0874499c4264c0cf14e7
+  - enabled: 1
+    path: Assets/Scenes/2-Childhood_Scene.unity
+    guid: 136248315060ac94c852c254425ac696
+  - enabled: 1
+    path: Assets/Scenes/3-Adolescence_Scene.unity
+    guid: 12a51daffeb5c482096e232809b480a8
+  - enabled: 1
+    path: Assets/Scenes/4-Adulthood_Scene.unity
+    guid: 5ada89c463e28e441815fc84aa27169e
+  - enabled: 1
+    path: Assets/Scenes/5-OldAge_Scene.unity
+    guid: c9bf8cb0cbcd7c346b04765431cbfee8
+  - enabled: 1
     path: Assets/Scenes/6-EternalMemory_Scene.unity
     guid: bfc285f897f3272468e337313a69062a
   m_configObjects:
