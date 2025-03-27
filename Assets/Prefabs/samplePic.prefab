@@ -238,7 +238,7 @@ GameObject:
   - component: {fileID: 8005355479508271087}
   - component: {fileID: 8984050584380624382}
   m_Layer: 10
-  m_Name: adolescencePhoto
+  m_Name: samplePic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

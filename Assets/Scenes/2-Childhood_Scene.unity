@@ -1010,7 +1010,7 @@ PrefabInstance:
     - target: {fileID: 5553314240522734740, guid: 754b5b3a4d40c452f94274040856cd20,
         type: 3}
       propertyPath: m_Name
-      value: adolescencePhoto
+      value: samplePic
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
