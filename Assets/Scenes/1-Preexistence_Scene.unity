@@ -3841,7 +3841,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneLoaderUI
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 270167663830034896, guid: 7312ff0d88a2d8744af0631e1221e289, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
