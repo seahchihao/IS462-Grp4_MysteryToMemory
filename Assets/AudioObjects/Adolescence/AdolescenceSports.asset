@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63099aaa365ae461898e4e3ff4e53e20, type: 3}
   m_Name: AdolescenceSports
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 020c6c5c1d2e844e580fcbd1775a3916, type: 3}
+  clip: {fileID: 8300000, guid: 82c85232d4feb4eb8b0fb7bf91aa08b1, type: 3}
   subtitle: Benny loved sports. No matter how busy or how tired he was, he always
     had time for sports. In this room you can find all kinds of sports that Benny
     has played, including basketball, football, table tennis and skating.

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63099aaa365ae461898e4e3ff4e53e20, type: 3}
+  m_Name: AdolescenceMusic
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: fedd314ca3adc4d29b315c17fb1810f1, type: 3}
+  subtitle: Creating music was Benny's passion, and he was crazy talented at it.
+    Every instrument he picked up, he was able to play like he had been practising
+    for years. His only regret was not joining an actual band where he could have
+    made it big, due to a lack of time and having other commitments.

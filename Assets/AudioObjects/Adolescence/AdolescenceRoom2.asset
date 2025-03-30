@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63099aaa365ae461898e4e3ff4e53e20, type: 3}
   m_Name: AdolescenceRoom2
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
-  subtitle: 
+  clip: {fileID: 8300000, guid: 88ab440d4aead4bdbb86b566ca46b130, type: 3}
+  subtitle: Wow, you found 2 more doors! I wonder what is behind each door...
