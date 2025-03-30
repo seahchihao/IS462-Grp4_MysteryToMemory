@@ -16,14 +16,19 @@ Our VR experience transforms what is often an obligatory presence at funerals in
 Players journey through six unique interactive scenes, each crafted to symbolize a life stage:
 - **Pre-existence (Before Birth)** - A dark foggy void symbolizing the stillness before life
 <img src="README-items/pre-existence.png" alt="pre-existence" width="600"/>
+
 - **Childhood (Beginnings & Exploration)** - A misty dream-like rolling plain with floating childhood items
 <img src="README-items/childhood.png" alt="childhood" width="600"/>
+
 - **Adolescence (Choices & Self-Discovery)** - A maze of rooms representing life's many paths
 <img src="README-items/adolescence.png" alt="adolescence" width="600"/>
+
 - **Adulthood (Responsibilities)** - A building facade with letterboxes containing life's responsibilities
 <img src="README-items/adulthood.png" alt="adulthood" width="600"/>
+
 - **Old Age (Legacy)** - A serene park with a giant tree and autumn leaves
 <img src="README-items/oldage.png" alt="oldage" width="600"/>
+
 - **Eternal Memory (Remembrance)** - The void transformed with light and floating memory orbs
 <img src="README-items/eternal-memory.png" alt="eternal-memory" width="600"/>
 
