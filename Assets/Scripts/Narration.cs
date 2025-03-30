@@ -23,12 +23,14 @@ public class Narration : MonoBehaviour
       source = gameObject.AddComponent<AudioSource>();
     }
 
-    public void Say(AudioClip clip)
+    public void Say(AudioObject clip)
     {
         if (source.isPlaying)
         {
             source.Stop();
         }
-        source.PlayOneShot(clip);
+        source.PlayOneShot(clip.clip);
+
+        Subtitle.instance.SetSubtitle(clip.subtitle, clip.clip.length);
     }
 }

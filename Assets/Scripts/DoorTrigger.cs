@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DoorTrigger : MonoBehaviour
 {
-    public AudioClip clipToPlay;
+    public AudioObject clipToPlay;
     private bool audioPlayed = false;
     private void OnTriggerEnter(Collider other)
     {
