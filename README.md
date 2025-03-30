@@ -15,16 +15,16 @@ Our VR experience transforms what is often an obligatory presence at funerals in
 ### Gameplay Overview
 Players journey through six unique interactive scenes, each crafted to symbolize a life stage:
 - **Pre-existence (Before Birth)** - A dark foggy void symbolizing the stillness before life
-![Pre-existence](<Screenshot 2025-03-31 at 3.14.17 AM.png>)
+<img src="README-items/pre-existence.png" alt="pre-existence" width="600"/>
 - **Childhood (Beginnings & Exploration)** - A misty dream-like rolling plain with floating childhood items
-![Childhood](<Screenshot 2025-03-31 at 3.15.00 AM.png>)
+<img src="README-items/childhood.png" alt="childhood" width="600"/>
 - **Adolescence (Choices & Self-Discovery)** - A maze of rooms representing life's many paths
-![Adolescence](<Screenshot 2025-03-31 at 3.16.13 AM.png>)
+<img src="README-items/adolescence.png" alt="adolescence" width="600"/>
 - **Adulthood (Responsibilities)** - A building facade with letterboxes containing life's responsibilities
-![Adulthood](<Screenshot 2025-03-31 at 3.18.03 AM.png>)
+<img src="README-items/adulthood.png" alt="adulthood" width="600"/>
 - **Old Age (Legacy)** - A serene park with a giant tree and autumn leaves
-![Old age](<Screenshot 2025-03-31 at 3.18.38 AM.png>)
+<img src="README-items/oldage.png" alt="oldage" width="600"/>
 - **Eternal Memory (Remembrance)** - The void transformed with light and floating memory orbs
-![Eternal memory](<Screenshot 2025-03-31 at 3.19.35 AM.png>)
+<img src="README-items/eternal-memory.png" alt="eternal-memory" width="600"/>
 
 In each scene, players complete tasks to discover photos and memories of the deceased, gradually building a connection to their life story.
