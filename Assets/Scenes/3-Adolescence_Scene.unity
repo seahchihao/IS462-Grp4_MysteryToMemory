@@ -4851,8 +4851,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818744623}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
-=======
 --- !u!1001 &822337844
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5184,7 +5182,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 237087476}
   m_PrefabAsset: {fileID: 0}
->>>>>>> 8de190ad (tutorial)
 --- !u!1001 &833692903
 PrefabInstance:
   m_ObjectHideFlags: 0
