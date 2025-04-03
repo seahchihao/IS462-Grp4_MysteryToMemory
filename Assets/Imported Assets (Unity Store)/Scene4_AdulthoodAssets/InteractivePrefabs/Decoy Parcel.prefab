@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4361612819283081818}
   - component: {fileID: 8404276252807689443}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GrabPoint Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5706100720449367094}
   - component: {fileID: 347412312312878779}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GrabPoint Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,7 +145,7 @@ GameObject:
   - component: {fileID: 3732536612878403148}
   - component: {fileID: 6605322604102129425}
   - component: {fileID: 2474118104072951022}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Decoy Parcel
   m_TagString: Parcel
   m_Icon: {fileID: 0}
