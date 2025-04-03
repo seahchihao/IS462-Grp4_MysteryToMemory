@@ -47,7 +47,7 @@ MonoBehaviour:
   handPoseType: 1
   SelectedHandPose: {fileID: 0}
   HandPose: 0
-  LeftHandIsValid: 1
+  LeftHandIsValid: 0
   RightHandIsValid: 1
   InvertLeftHand: 0
   InvertLeftPositionX: 1
@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 7705870827591996300}
   m_Layer: 0
   m_Name: Main Parcel
-  m_TagString: Untagged
+  m_TagString: MainParcel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -385,8 +385,7 @@ MonoBehaviour:
   SecondaryLookAtTransform: {fileID: 0}
   LocalOffsetTransform: {fileID: 0}
   GrabPoints:
-  - {fileID: 4658658360566426739}
-  - {fileID: 4290625789671213782}
+  - {fileID: 0}
   UseCustomInspector: 1
   lastFlickTime: 0
   FlickForce: 1
@@ -456,7 +455,7 @@ MonoBehaviour:
   SelectedHandPose: {fileID: 0}
   HandPose: 0
   LeftHandIsValid: 1
-  RightHandIsValid: 1
+  RightHandIsValid: 0
   InvertLeftHand: 0
   InvertLeftPositionX: 1
   InvertLeftPositionY: 0
