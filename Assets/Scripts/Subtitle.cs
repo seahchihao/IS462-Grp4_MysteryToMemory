@@ -1,11 +1,13 @@
 using System.Collections;
-using TMPro;
 using UnityEngine;
+using TMPro;
 
 public class Subtitle : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI subtitleText = default;
     public static Subtitle instance;
+
+    private Coroutine subtitleCoroutine;
 
     private void Awake()
     {
@@ -13,20 +15,36 @@ public class Subtitle : MonoBehaviour
         ClearSubtitle();
     }
 
-    public void SetSubtitle(string subtitle, float delay)
+    public void SetSubtitle(string subtitle, float totalDuration)
     {
-        subtitleText.text = subtitle;
-        StartCoroutine(ClearAfterSeconds(delay));
+        if (subtitleCoroutine != null)
+            StopCoroutine(subtitleCoroutine);
+
+        subtitleCoroutine = StartCoroutine(TypeSubtitleCharByChar(subtitle, totalDuration));
     }
 
     public void ClearSubtitle()
     {
+        if (subtitleCoroutine != null)
+            StopCoroutine(subtitleCoroutine);
+
         subtitleText.text = "";
     }
 
-    private IEnumerator ClearAfterSeconds(float delay)
+    private IEnumerator TypeSubtitleCharByChar(string subtitle, float totalDuration)
     {
-        yield return new WaitForSeconds(delay);
+        subtitleText.text = "";
+
+        float delayPerChar = totalDuration / subtitle.Length;
+
+        for (int i = 0; i < subtitle.Length; i++)
+        {
+            subtitleText.text += subtitle[i];
+            yield return new WaitForSeconds(delayPerChar);
+        }
+
+        // Optional: wait a moment before clearing
+        yield return new WaitForSeconds(1f);
         ClearSubtitle();
     }
 }
