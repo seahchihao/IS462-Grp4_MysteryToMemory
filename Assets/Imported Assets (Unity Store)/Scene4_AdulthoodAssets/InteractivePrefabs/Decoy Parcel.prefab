@@ -339,7 +339,9 @@ MonoBehaviour:
   SecondaryLookOffset: {x: 0, y: 0, z: 0}
   SecondaryLookAtTransform: {fileID: 0}
   LocalOffsetTransform: {fileID: 0}
-  GrabPoints: []
+  GrabPoints:
+  - {fileID: 4361612819283081818}
+  - {fileID: 5706100720449367094}
   UseCustomInspector: 1
   lastFlickTime: 0
   FlickForce: 1
