@@ -48,7 +48,7 @@ MonoBehaviour:
   SelectedHandPose: {fileID: 0}
   HandPose: 0
   LeftHandIsValid: 1
-  RightHandIsValid: 1
+  RightHandIsValid: 0
   InvertLeftHand: 0
   InvertLeftPositionX: 1
   InvertLeftPositionY: 0
@@ -112,7 +112,7 @@ MonoBehaviour:
   handPoseType: 1
   SelectedHandPose: {fileID: 0}
   HandPose: 0
-  LeftHandIsValid: 1
+  LeftHandIsValid: 0
   RightHandIsValid: 1
   InvertLeftHand: 0
   InvertLeftPositionX: 1
@@ -147,7 +147,7 @@ GameObject:
   - component: {fileID: 2474118104072951022}
   m_Layer: 0
   m_Name: Decoy Parcel
-  m_TagString: Untagged
+  m_TagString: Parcel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -339,9 +339,7 @@ MonoBehaviour:
   SecondaryLookOffset: {x: 0, y: 0, z: 0}
   SecondaryLookAtTransform: {fileID: 0}
   LocalOffsetTransform: {fileID: 0}
-  GrabPoints:
-  - {fileID: 4361612819283081818}
-  - {fileID: 5706100720449367094}
+  GrabPoints: []
   UseCustomInspector: 1
   lastFlickTime: 0
   FlickForce: 1

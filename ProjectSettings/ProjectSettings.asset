@@ -222,7 +222,7 @@ PlayerSettings:
   androidMinAspectRatio: 1
   applicationIdentifier:
     Android: com.DefaultCompany.VRIF_Baseline
-    Standalone: com.Bearded-Ninja-Games.VR-Interaction-Framework
+    Standalone: com.SMU.DFS-prototype
   buildNumber:
     Standalone: 0
     VisionOS: 0
