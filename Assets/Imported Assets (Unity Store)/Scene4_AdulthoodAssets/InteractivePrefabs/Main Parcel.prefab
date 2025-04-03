@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 7705870827591996300}
   m_Layer: 0
   m_Name: Main Parcel
-  m_TagString: Parcel
+  m_TagString: MainParcel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -384,7 +384,8 @@ MonoBehaviour:
   SecondaryLookOffset: {x: 0, y: 0, z: 0}
   SecondaryLookAtTransform: {fileID: 0}
   LocalOffsetTransform: {fileID: 0}
-  GrabPoints: []
+  GrabPoints:
+  - {fileID: 0}
   UseCustomInspector: 1
   lastFlickTime: 0
   FlickForce: 1

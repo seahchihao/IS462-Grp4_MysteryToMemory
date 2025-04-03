@@ -7,6 +7,7 @@ TagManager:
   - Parcel
   - Surface
   - Floor
+  - MainParcel
   layers:
   - Default
   - TransparentFX
