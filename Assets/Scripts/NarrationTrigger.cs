@@ -1,7 +1,7 @@
 using UnityEngine;
 using BNG;
 
-public class PhotoPickup : MonoBehaviour
+public class NarrationTrigger : MonoBehaviour
 {
     public AudioObject clipToPlay;
     private bool audioPlayed = false;
