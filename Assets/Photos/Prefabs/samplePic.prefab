@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 8984050584380624382}
   m_Layer: 10
   m_Name: samplePic
-  m_TagString: Untagged
+  m_TagString: KeyPhoto
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
