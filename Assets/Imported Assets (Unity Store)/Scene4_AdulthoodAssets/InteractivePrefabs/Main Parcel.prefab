@@ -184,7 +184,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4102031963244029012}
   - component: {fileID: 3776491856702009296}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GrabPoint Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -485,7 +485,7 @@ GameObject:
   - component: {fileID: 3772519557431845815}
   - component: {fileID: 3483570427975265241}
   - component: {fileID: 1462145042425881038}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Main Parcel
   m_TagString: MainParcel
   m_Icon: {fileID: 0}
@@ -714,7 +714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9145650868199952224}
   - component: {fileID: 4803310571688517209}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GrabPoint Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
