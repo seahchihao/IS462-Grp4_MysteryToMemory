@@ -16,7 +16,7 @@ public class TutorialAvatar : MonoBehaviour
     {
         navAgent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
-        navAgent.baseOffset = 1.2f;
+        navAgent.baseOffset = 0.8f;
         
         if (playerTransform == null)
         {
