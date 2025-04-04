@@ -53,13 +53,9 @@ public class UponGrabbingKey : MonoBehaviour
         uiElement.SetActive(isUiVisible);
     }
 
-
     private void SpawnItem()
     {
-        if (playerTransform != null)
-        {
-            itemObject.SetActive(true); // Make the object visible when picked up
-        }
+        itemObject.SetActive(true); // Make the object visible when picked up
     }
     private void MovePlayerToSpotInFrontOfDoor()
     {
