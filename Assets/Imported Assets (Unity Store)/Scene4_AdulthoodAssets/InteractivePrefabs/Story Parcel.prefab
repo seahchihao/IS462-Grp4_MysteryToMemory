@@ -486,7 +486,7 @@ GameObject:
   - component: {fileID: 3483570427975265241}
   - component: {fileID: 1462145042425881038}
   m_Layer: 10
-  m_Name: Main Parcel
+  m_Name: Story Parcel
   m_TagString: Parcel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
