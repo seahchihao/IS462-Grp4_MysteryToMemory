@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: AdolescenceCar
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: c1beb757ba202423fa1f217bf4169c2a, type: 3}
-  subtitle: F1 was something Johnny always looked forward to, and he would spend
-    all day talking about how handsome his favourite racer, Lewis Hamilton, was.
+  subtitle: 'Beyond sports, Johnny had another passion, Formula 1. He followed every
+    race, every driver, and kept a tiny F1 car figurine in his room. Here, that small
+    memory has grown into something larger, just like his love for the sport. '

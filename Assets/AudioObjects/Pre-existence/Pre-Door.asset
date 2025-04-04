@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Pre-Door
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: 8858e5c0d18d84b25aa7f7a3a491212f, type: 3}
-  subtitle: Wow! A door has appeared! Before you go in, let me explain what's going
-    to happen. You will go through several scenes depicting stages in Johnny's life,
-    and in each scene you have to find a key photo of Johnny. After finding it, you
-    will be able to proceed to the next scene. Good luck!
+  subtitle: "Let\u2019s begin where all stories start, at childhood. Step through
+    the door, and let\u2019s remember the boy who would grow into the man we all
+    knew and loved."

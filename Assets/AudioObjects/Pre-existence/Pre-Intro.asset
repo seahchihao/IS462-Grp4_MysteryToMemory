@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pre-Intro
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: 7d0b160caf60e4c26ae2af7c3ba6aa8f, type: 3}
-  subtitle: Welcome to Mystery to Memory! Death is never pleasant, but Johnny has
-    lived a long and eventful life, and let us celebrate these moments and reminisce
-    our fond memories with him. If you're ready, please press the red button in front
-    of you.
+  subtitle: "Every life begins with a story waiting to be told. In this journey,
+    you\u2019ll uncover key memories from each chapter of Johnny\u2019s life. Find
+    the photo that represents each stage, and when you\u2019re ready, press the red
+    button to begin."

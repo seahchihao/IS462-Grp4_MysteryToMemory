@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: AdolescenceSports
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: 91660c88a15564c1aae42da7b0bb658f, type: 3}
-  subtitle: Johnny loved sports. No matter how busy or how tired he was, he always
-    had time for sports. In this room you can find all kinds of sports that Johnny
-    has played, including basketball, football, table tennis and skating.
+  subtitle: 'Johnny was never just about one sport. He played basketball with his
+    best friend Tom, skateboarded even when his parents told him not to, and spent
+    hours at the void deck playing table football with friends. He found joy in every
+    game, always eager to try something new. '
