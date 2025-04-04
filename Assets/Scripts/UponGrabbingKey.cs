@@ -12,7 +12,7 @@ public class UponGrabbingKey : MonoBehaviour
     private Transform playerTransform; // Player's transform
 
     // The specific spot near the door where you want to move the player
-    public float distanceInFrontOfDoor = 3f; // Distance to move the player in front of the door
+    public float distanceInFrontOfDoor = 8f; // Distance to move the player in front of the door
     private Transform doorTransform;
 
     public void OnKeyPickedUp()
