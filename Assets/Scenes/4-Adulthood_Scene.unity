@@ -923,6 +923,11 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 579080bda9f89ee42a5447d6d997e266, type: 2}
+    - target: {fileID: 6816004939762226537, guid: a2ff1fafbc43a4b489acfc0e92bae6ea,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5f2a94fcc14f7e04a96754080a2a8c53, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10968,6 +10973,8 @@ MonoBehaviour:
   - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
   - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
   - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
+<<<<<<< Updated upstream
+=======
   - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
   - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
   - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
@@ -10978,8 +10985,19 @@ MonoBehaviour:
   - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
   - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
   - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
+  - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
+  - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
+  - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
+  - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
+  - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
+  - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
+  - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
+  - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
+  - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
+  - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
+>>>>>>> Stashed changes
   boundary: {fileID: 31455924}
-  numberOfObjects: 50
+  numberOfObjects: 30
   minDistance: 0.25
   minY: 0.5
   maxY: 2
@@ -35194,6 +35212,11 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 306e28ba96bec034887dabbe9b1abb3e, type: 2}
+    - target: {fileID: 1701019085235081423, guid: df16780d478fb9748915c09832f81ad7,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5f2a94fcc14f7e04a96754080a2a8c53, type: 2}
     - target: {fileID: 1701019085237276169, guid: df16780d478fb9748915c09832f81ad7,
         type: 3}
       propertyPath: m_StaticEditorFlags
