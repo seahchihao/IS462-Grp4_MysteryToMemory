@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AdolescenceMusic
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: fedd314ca3adc4d29b315c17fb1810f1, type: 3}
-  subtitle: Creating music was Johnny's passion, and he was crazy talented at it.
-    Every instrument he picked up, he was able to play like he had been practising
-    for years. His only regret was not joining an actual band where he could have
-    made it big, due to a lack of time and having other commitments.
+  subtitle: "Music was another love of Johnny\u2019s. He played the piano, rocked
+    out as the lead guitarist in his school band, and even had a drum set at home.
+    His mom may have scolded him for the noise, but that never stopped him from playing
+    his heart out. "

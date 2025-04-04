@@ -46,7 +46,7 @@ Material:
     - _AuroraPower: 3.69
     - _AuroraTwirlStrength: 0.84
     - _GradientOffset: -0.22
-    - _HorizonBlend: 15.6
+    - _HorizonBlend: 25.7
     - _NadirBlend: 0.01
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -60,7 +60,7 @@ Material:
     - _AuroraTiling: {r: 1, g: 7.34, b: 0, a: 0}
     - _AuroraTwirlOffset: {r: 0, g: 0, b: 0, a: 0}
     - _GroundColour: {r: 0, g: 0, b: 0, a: 0}
-    - _Horizon_Colour: {r: 0.15226057, g: 0.15702006, b: 0.3433962, a: 0}
+    - _Horizon_Colour: {r: 0.3743467, g: 0.3823404, b: 0.7660377, a: 0}
     - _SkyColour: {r: 0.07169801, g: 0.07169801, b: 0.07169801, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

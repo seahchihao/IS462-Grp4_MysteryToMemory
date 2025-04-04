@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: AdolescenceIntro
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: 364d19b7a20ee4bb298632866b75b509, type: 3}
-  subtitle: Welcome to Johnny's adolescence! Here you can navigate each room and
-    find the key photo that represents this part of Johnny's life, and upon finding
-    it, you will be able to proceed to the next area. While you do that, don't forget
-    to check out each room to learn more about Johnny in his adolescence!
+  subtitle: Adolescence, the time of discovery and growth. Johnny explored all kinds
+    of passions here. One photo in this space captures a moment that meant a lot
+    to Johnny.

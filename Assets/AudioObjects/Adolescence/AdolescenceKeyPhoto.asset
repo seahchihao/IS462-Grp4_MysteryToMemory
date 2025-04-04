@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: AdolescenceKeyPhoto
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: 46b74e0fc7af8477d8b004f2398b38d3, type: 3}
-  subtitle: Congratulations! You found the key photo of Johnny in his adolescence!
-    Exit this house and go through the door to enter the next scene.
+  subtitle: "Soccer had become more than a childhood memory; it was Johnny\u2019s
+    passion. In this photo, he\u2019s kicking a ball down the corridor of his family\u2019s
+    new home, playing with his brothers. He was the best player in his village, but
+    more than that, he was a kid who loved the game, just like his dad. "
