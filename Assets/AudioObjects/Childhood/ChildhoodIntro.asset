@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: ChildhoodIntro
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: b81acdc4b0f4e4e19bb51ec3f317ba1d, type: 3}
-  subtitle: This must be Johnny's childhood! So many toys! I hope you will be able
-    to find the photo among all these toys!
+  subtitle: "Johnny\u2019s childhood was filled with boundless energy and wide-eyed
+    wonder. Somewhere in this scene is a photo that captures a memory close to his
+    heart. Take your time, and when you\u2019re ready, find it. "

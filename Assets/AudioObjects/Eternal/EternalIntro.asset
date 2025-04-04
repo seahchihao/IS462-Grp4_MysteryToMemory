@@ -10,10 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63099aaa365ae461898e4e3ff4e53e20, type: 3}
-  m_Name: AdolescenceMusic
+  m_Name: EternalIntro
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: fedd314ca3adc4d29b315c17fb1810f1, type: 3}
-  subtitle: "Music was another love of Johnny\u2019s. He played the piano, rocked
-    out as the lead guitarist in his school band, and even had a drum set at home.
-    His mom may have scolded him for the noise, but that never stopped him from playing
-    his heart out. "
+  clip: {fileID: 8300000, guid: a75789d543b1e41b09f5ed98b7ff9ba0, type: 3}
+  subtitle: "Now, we stand at the final chapter. Each memory, each moment we\u2019ve
+    gathered, comes together to form the story of Johnny\u2019s life. His journey,
+    his love, his laughter, they live on. "

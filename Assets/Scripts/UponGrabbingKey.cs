@@ -4,26 +4,34 @@ using UnityEngine.XR;
 
 public class UponGrabbingKey : MonoBehaviour
 {
-
-    public string keyTag = "KeyPhoto"; // Tag to identify the key object
     public GameObject itemObject;  // The object that already exists in the scene
     public GameObject uiElement;   // The UI element to toggle visibility
-    public float spawnDistance = 2f;// The distance in front/behind the player
     private InputBridge inputBridge;
     private bool hasPickedUpObject = false; // Flag to check if object is picked up
     private bool isUiVisible = false; // UI visibility toggle state
     private Transform playerTransform; // Player's transform
 
-    void Start()
-    {
-        // Initially hide the UI element
-        uiElement.SetActive(false);
+    // The specific spot near the door where you want to move the player
+    public float distanceInFrontOfDoor = 3f; // Distance to move the player in front of the door
+    private Transform doorTransform;
 
-        // Initially hide the item (it is placed somewhere in the scene, but hidden)
-        itemObject.SetActive(false); // Make sure it starts off as invisible
+    public void OnKeyPickedUp()
+    {
+        hasPickedUpObject = true;
+        isUiVisible = true;
+
+        // Assign doorTransform to itemObject's transform
+        doorTransform = itemObject.transform;
 
         // Find the player's transform (you may already have a reference to it in your scene)
         playerTransform = GameObject.FindWithTag("Player").transform;
+
+        // Pick up the object and spawn the in-game item and UI element
+        uiElement.SetActive(isUiVisible);
+        SpawnItem();
+
+        // Move the player to the target position near the door and make them face it
+        MovePlayerToSpotInFrontOfDoor();
     }
 
     void Update()
@@ -45,28 +53,26 @@ public class UponGrabbingKey : MonoBehaviour
         uiElement.SetActive(isUiVisible);
     }
 
-    // Detect if player picks up the object
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag(keyTag)) // Check if the player has collided with the Key
-        {
-            // Pick up the object and spawn the in-game item and UI element
-            hasPickedUpObject = true;
-            uiElement.SetActive(isUiVisible);
-            SpawnItem();
-        }
-    }
 
     private void SpawnItem()
     {
         if (playerTransform != null)
         {
-            // Calculate the spawn position relative to the player's forward direction
-            Vector3 spawnPosition = playerTransform.position + playerTransform.forward * spawnDistance;
-
-            // Move the item to the new position and make it visible
-            itemObject.transform.position = spawnPosition;
             itemObject.SetActive(true); // Make the object visible when picked up
+        }
+    }
+    private void MovePlayerToSpotInFrontOfDoor()
+    {
+        if (doorTransform != null)
+        {
+            // Calculate the position in front of the door by moving the player a fixed distance
+            Vector3 positionInFrontOfDoor = doorTransform.position + doorTransform.forward * distanceInFrontOfDoor;
+
+            // Move the player to the calculated position
+            playerTransform.position = positionInFrontOfDoor;
+
+            // Make the player face the door by rotating the player to look at the door
+            playerTransform.rotation = Quaternion.LookRotation(doorTransform.position - playerTransform.position);
         }
     }
 }
