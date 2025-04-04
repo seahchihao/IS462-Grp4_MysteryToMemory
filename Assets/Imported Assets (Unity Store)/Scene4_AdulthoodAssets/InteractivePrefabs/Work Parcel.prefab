@@ -146,7 +146,7 @@ GameObject:
   - component: {fileID: 6605322604102129425}
   - component: {fileID: 2474118104072951022}
   m_Layer: 10
-  m_Name: Decoy Parcel
+  m_Name: Work Parcel
   m_TagString: Parcel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -200,9 +200,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a7862d5615928c34e868320de65c2777, type: 2}
-  - {fileID: 2100000, guid: 11a8c080607cf47c299aff53087e0334, type: 2}
-  - {fileID: 2100000, guid: 0de74cacf6310c64ca1b6862ba4b219c, type: 2}
+  - {fileID: 2100000, guid: eb2b3b8bba52a5843b0d624629cc230d, type: 2}
+  - {fileID: 2100000, guid: eb2b3b8bba52a5843b0d624629cc230d, type: 2}
+  - {fileID: 2100000, guid: baa8483ac57e2b54ab34d51223d07556, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
