@@ -16949,7 +16949,6 @@ Transform:
   m_PrefabInstance: {fileID: 806578080}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 --- !u!114 &806878903 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8320362179581940914, guid: 4ac7df741a9c0a2418ec19477729ee3d,
@@ -16963,8 +16962,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 =======
-=======
->>>>>>> Stashed changes
 --- !u!1 &810857859
 GameObject:
   m_ObjectHideFlags: 0
@@ -17059,9 +17056,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes
 --- !u!1001 &811306128
 PrefabInstance:
