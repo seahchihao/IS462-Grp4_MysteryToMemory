@@ -513,7 +513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b36a4c4903cf27c4d98369b49a6f245a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputBridge: {fileID: 0}
+  inputBridge: {fileID: 1999118574}
 --- !u!1001 &232066714
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1457,6 +1457,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Transition Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 7120738320637745020, guid: 7cd41376a980cb44aabefdf68c427bce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7973175257143436081, guid: 7cd41376a980cb44aabefdf68c427bce,
         type: 3}
@@ -5313,6 +5318,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1798552514}
   m_CullTransparentMesh: 1
+--- !u!114 &1999118574 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8320362179581940914, guid: 4ac7df741a9c0a2418ec19477729ee3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1493802953}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49877b2c8de1d6e4ebc9ca5d8ea02d78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2045477301
 PrefabInstance:
   m_ObjectHideFlags: 0
