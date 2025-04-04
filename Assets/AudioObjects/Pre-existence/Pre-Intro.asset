@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63099aaa365ae461898e4e3ff4e53e20, type: 3}
-  m_Name: AdolescenceSports
+  m_Name: Pre-Intro
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 91660c88a15564c1aae42da7b0bb658f, type: 3}
-  subtitle: Johnny loved sports. No matter how busy or how tired he was, he always
-    had time for sports. In this room you can find all kinds of sports that Johnny
-    has played, including basketball, football, table tennis and skating.
+  clip: {fileID: 8300000, guid: 7d0b160caf60e4c26ae2af7c3ba6aa8f, type: 3}
+  subtitle: Welcome to Mystery to Memory! Death is never pleasant, but Johnny has
+    lived a long and eventful life, and let us celebrate these moments and reminisce
+    our fond memories with him. If you're ready, please press the red button in front
+    of you.

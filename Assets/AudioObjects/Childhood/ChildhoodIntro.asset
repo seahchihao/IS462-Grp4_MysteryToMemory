@@ -10,9 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63099aaa365ae461898e4e3ff4e53e20, type: 3}
-  m_Name: AdolescenceSports
+  m_Name: ChildhoodIntro
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 91660c88a15564c1aae42da7b0bb658f, type: 3}
-  subtitle: Johnny loved sports. No matter how busy or how tired he was, he always
-    had time for sports. In this room you can find all kinds of sports that Johnny
-    has played, including basketball, football, table tennis and skating.
+  clip: {fileID: 8300000, guid: b81acdc4b0f4e4e19bb51ec3f317ba1d, type: 3}
+  subtitle: This must be Johnny's childhood! So many toys! I hope you will be able
+    to find the photo among all these toys!
