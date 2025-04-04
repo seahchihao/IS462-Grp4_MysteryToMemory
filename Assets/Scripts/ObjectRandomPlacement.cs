@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RandomPrefabPlacement : MonoBehaviour
+public class ObjectRandomPlacement : MonoBehaviour
 {
     public GameObject[] prefabs;  // Array to hold the prefabs
     public MeshCollider boundary;  // Reference to the boundary BoxCollider

@@ -6846,6 +6846,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Transition Door
       objectReference: {fileID: 0}
+    - target: {fileID: 7120738320637745020, guid: 7cd41376a980cb44aabefdf68c427bce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7973175257143436081, guid: 7cd41376a980cb44aabefdf68c427bce,
         type: 3}
       propertyPath: m_LocalScale.x
