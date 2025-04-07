@@ -4,10 +4,12 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Parcel
   - Surface
   - Floor
   - KeyPhoto
+  - LifeParcel
+  - WorkParcel
+  - StoryParcel
   layers:
   - Default
   - TransparentFX

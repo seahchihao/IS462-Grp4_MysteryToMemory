@@ -147,7 +147,7 @@ GameObject:
   - component: {fileID: 2474118104072951022}
   m_Layer: 10
   m_Name: Life Parcel
-  m_TagString: Parcel
+  m_TagString: LifeParcel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

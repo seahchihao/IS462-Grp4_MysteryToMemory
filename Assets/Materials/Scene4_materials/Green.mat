@@ -22,7 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Green
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_Parent: {fileID: 2100000, guid: 5f2a94fcc14f7e04a96754080a2a8c53, type: 2}
+  m_Parent: {fileID: 2100000, guid: 98bbb2a2222b11a48a077b7eec949fec, type: 2}
   m_ModifiedSerializedProperties: 16
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -45,7 +45,7 @@ Material:
     - _Surface: 0
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.29803923, g: 0.6156863, b: 0.52156866, a: 1}
-    - _Color: {r: 0.2980392, g: 0.6156863, b: 0.5215686, a: 1}
+    - _BaseColor: {r: 0.29803923, g: 0.6156863, b: 0.5254902, a: 1}
+    - _Color: {r: 0.2980392, g: 0.6156863, b: 0.5254902, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
