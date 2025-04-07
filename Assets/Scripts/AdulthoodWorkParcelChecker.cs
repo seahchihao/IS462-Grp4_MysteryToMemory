@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class LifeParcelChecker : MonoBehaviour
+public class AdulthoodWorkParcelChecker : MonoBehaviour
 {
     public AudioClip deliverySound;
     private AudioSource audioSource;
@@ -19,7 +19,7 @@ public class LifeParcelChecker : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("LifeParcel"))
+        if (other.CompareTag("WorkParcel"))
         {
             // Deactivate the parcel
             other.gameObject.SetActive(false);

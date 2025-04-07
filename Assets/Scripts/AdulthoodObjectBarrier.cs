@@ -1,16 +1,16 @@
 using UnityEngine;
 
-public class AdulthoodSceneParcelBarrier : MonoBehaviour
+public class AdulthoodObjectBarrier : MonoBehaviour
 {
     private void OnTriggerStay(Collider other)
     {
-        if (other.CompareTag("Parcel"))
+        if (IsMonitoredTag(other.tag))
         {
             Rigidbody rb = other.attachedRigidbody;
 
             if (rb != null)
             {
-                // Stop the Parcel's movement
+                // Stop the object's movement
                 rb.linearVelocity = Vector3.zero;
                 rb.angularVelocity = Vector3.zero;
 
@@ -19,5 +19,10 @@ public class AdulthoodSceneParcelBarrier : MonoBehaviour
                 rb.AddForce(pushDir * 5f, ForceMode.VelocityChange);
             }
         }
+    }
+
+    private bool IsMonitoredTag(string tag)
+    {
+        return tag == "LifeParcel" || tag == "WorkParcel" || tag == "KeyPhoto";
     }
 }
