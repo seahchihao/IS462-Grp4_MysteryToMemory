@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63099aaa365ae461898e4e3ff4e53e20, type: 3}
   m_Name: OldAgeTree
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 872a014cb7083a748a90f2ad3428aa43, type: 3}
-  subtitle: "Much like these trees, Johnny\u2019s roots ran deep in love and strength.
-    His legacy will always grow in the hearts of those he touched. "
+  clip: {fileID: 8300000, guid: d5cc67087565c1d40ad03cd0e9666291, type: 3}
+  subtitle: "Johnny loved peaceful walks under these trees. He\u2019d often pause
+    to admire the flowers, sometimes picking one for his grandchild. Feel free to
+    explore and play with them, just as he once did."

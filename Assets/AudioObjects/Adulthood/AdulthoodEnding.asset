@@ -10,9 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63099aaa365ae461898e4e3ff4e53e20, type: 3}
-  m_Name: OldAgeIntro
+  m_Name: AdulthoodEnding
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: c49d4f2668da54a00a34c0276c83ff77, type: 3}
-  subtitle: "In his later years, Johnny found joy in life\u2019s quieter moments.
-    Beneath the fallen flowers, a photo captures a gentle glimpse of that joy, waiting
-    to be discovered."
+  clip: {fileID: 8300000, guid: 7e451d0c15757ca4db4c597976a18aeb, type: 3}
+  subtitle: 'Stay as long as you need. When you''re ready to move on, walk through
+    the next door into his golden years. '

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63099aaa365ae461898e4e3ff4e53e20, type: 3}
   m_Name: OldAgeBench
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 2ab48bbdf13444346a9c7f34c0bc2303, type: 3}
-  subtitle: Johnny found moments sitting at the park, reflecting on life. It reminds
-    us of the quiet moments he cherished with loved ones.
+  clip: {fileID: 8300000, guid: e53685c1b03b28847a9057b3ce183b55, type: 3}
+  subtitle: "He loved sitting at his favourite park bench every week, same spot,
+    same time. It was part of his routine, a quiet moment to take in life\u2019s
+    little joys."
