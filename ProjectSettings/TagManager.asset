@@ -10,6 +10,7 @@ TagManager:
   - LifeParcel
   - WorkParcel
   - StoryParcel
+  - Flower
   layers:
   - Default
   - TransparentFX

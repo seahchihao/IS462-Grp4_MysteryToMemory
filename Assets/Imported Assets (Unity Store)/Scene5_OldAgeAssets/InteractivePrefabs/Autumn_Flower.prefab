@@ -12,10 +12,9 @@ GameObject:
   - component: {fileID: 1312913134726093777}
   - component: {fileID: 1806368129466812971}
   - component: {fileID: 1414677672068703726}
-  - component: {fileID: -7734773448889330523}
   m_Layer: 0
   m_Name: Autumn_Flower
-  m_TagString: Untagged
+  m_TagString: Flower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73,8 +72,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 0
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 3.05
+  outlineColor: {r: 1, g: 0.42438906, b: 0, a: 1}
+  outlineWidth: 3.5
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
@@ -105,19 +104,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-7734773448889330523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1295755904135790395}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a93734f5fa796c444938e48a416e97e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  grabSound: {fileID: 8300000, guid: a29b952295129b14b90d364fb92f802e, type: 3}
 --- !u!1 &2251718264888471857
 GameObject:
   m_ObjectHideFlags: 0
