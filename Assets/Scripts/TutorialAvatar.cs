@@ -45,7 +45,18 @@ public class TutorialAvatar : MonoBehaviour
                 animator.ResetTrigger("idle");
                 animator.SetTrigger("run");
             }
-            // navAgent.SetDestination(playerTransform.position);
+            navAgent.SetDestination(playerTransform.position);
+        }
+
+        if (playerTransform == null)
+        {
+            BNGPlayerController player = FindFirstObjectByType<BNGPlayerController>();
+            if (player != null)
+            {
+                playerTransform = player.transform;
+                Debug.Log("Reassigned player transform after scene load.");
+            }
+            return;
         }
     }
 }
