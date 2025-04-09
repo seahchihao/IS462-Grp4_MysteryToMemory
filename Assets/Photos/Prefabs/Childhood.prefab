@@ -449,7 +449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d078ea8d826c5457abf8f9cc41b2ea26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clipToPlay: {fileID: 11400000, guid: 9367297e5a5254586899695dba547637, type: 2}
+  clipToPlay: {fileID: 11400000, guid: 4973e1e0756174c4bbc6a13b24822233, type: 2}
 --- !u!114 &5793688761819718492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -466,7 +466,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2609859376680349596}
-        m_TargetAssemblyTypeName: PhotoPickup, Assembly-CSharp
+        m_TargetAssemblyTypeName: NarrationTrigger, Assembly-CSharp
         m_MethodName: PlayNarration
         m_Mode: 1
         m_Arguments:
