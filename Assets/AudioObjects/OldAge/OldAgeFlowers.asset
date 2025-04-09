@@ -10,9 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63099aaa365ae461898e4e3ff4e53e20, type: 3}
-  m_Name: OldAgeTree
+  m_Name: OldAgeFlowers
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: d5cc67087565c1d40ad03cd0e9666291, type: 3}
-  subtitle: "Johnny loved peaceful walks under these trees. He\u2019d often pause
-    to admire the flowers, sometimes picking one for his grandchild. Feel free to
-    explore and play with them, just as he once did."
+  clip: {fileID: 8300000, guid: d1865ae54635729498b90a4883a42c9a, type: 3}
+  subtitle: 'After every walk, Johnny picked flowers for his grandchild, a quiet
+    way of sharing love. Collect a few and place them on the bench. '

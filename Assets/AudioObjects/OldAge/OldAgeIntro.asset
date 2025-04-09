@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: OldAgeIntro
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: c49d4f2668da54a00a34c0276c83ff77, type: 3}
-  subtitle: "In his later years, Johnny found joy in life\u2019s quieter moments.
-    Beneath the fallen flowers, a photo captures a gentle glimpse of that joy, waiting
-    to be discovered."
+  subtitle: In his final years, Johnny often took walks in the park to reflect. Follow
+    the memories he left behind, starting with his journal, to unlock a photo from
+    his last chapter.

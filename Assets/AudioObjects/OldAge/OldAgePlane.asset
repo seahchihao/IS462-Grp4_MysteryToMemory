@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63099aaa365ae461898e4e3ff4e53e20, type: 3}
-  m_Name: OldAgeBench
+  m_Name: OldAgePlane
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: e53685c1b03b28847a9057b3ce183b55, type: 3}
-  subtitle: "He loved sitting at his favourite park bench every week, same spot,
-    same time. It was part of his routine, a quiet moment to take in life\u2019s
-    little joys."
+  clip: {fileID: 8300000, guid: 5e04026391497374f902852c5870ab4c, type: 3}
+  subtitle: "Johnny\u2019s regrets took flight in these paper planes. He\u2019d race
+    his grandkids, laughing over who could throw the furthest. Bring this near the
+    flowers he always admired \u2014 just like he did after each toss. "
