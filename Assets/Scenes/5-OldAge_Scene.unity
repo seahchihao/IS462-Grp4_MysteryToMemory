@@ -1509,6 +1509,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 571662493}
     m_Modifications:
+    - target: {fileID: -2629950281706582675, guid: 0a073a64c2fab5d40a7c34b375170207,
+        type: 3}
+      propertyPath: outlineWidth
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1534926244138248, guid: 0bafe321caa3d475daa026d61222d930, type: 3}
       propertyPath: m_Name
       value: BookPreview
@@ -1564,11 +1569,6 @@ PrefabInstance:
     - target: {fileID: 64470340617490960, guid: 0bafe321caa3d475daa026d61222d930,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -2629950281706582675, guid: 0a073a64c2fab5d40a7c34b375170207,
-        type: 3}
-      propertyPath: outlineWidth
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -6990,6 +6990,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2983238230371289305, guid: 7cd41376a980cb44aabefdf68c427bce,
+        type: 3}
+      propertyPath: nextSceneName
+      value: 6-EternalMemory_Scene
+      objectReference: {fileID: 0}
     - target: {fileID: 6131462892565373658, guid: 7cd41376a980cb44aabefdf68c427bce,
         type: 3}
       propertyPath: nextScene
@@ -10749,6 +10754,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1856501150}
     m_Modifications:
+    - target: {fileID: -2629950281706582675, guid: 0a073a64c2fab5d40a7c34b375170207,
+        type: 3}
+      propertyPath: outlineWidth
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1534926244138248, guid: 0bafe321caa3d475daa026d61222d930, type: 3}
       propertyPath: m_Name
       value: PaperPlanePreview
@@ -10814,11 +10824,6 @@ PrefabInstance:
     - target: {fileID: 64470340617490960, guid: 0bafe321caa3d475daa026d61222d930,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -2629950281706582675, guid: 0a073a64c2fab5d40a7c34b375170207,
-        type: 3}
-      propertyPath: outlineWidth
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:

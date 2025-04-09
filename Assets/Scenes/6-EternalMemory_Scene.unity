@@ -9253,6 +9253,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gallery
       objectReference: {fileID: 0}
+    - target: {fileID: 2513762713359267393, guid: 2190f3955cd664a48ac1c80908975247,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4920b81b977d7cb40aacdef5aa19a2e5, type: 2}
     - target: {fileID: 2669757036067463103, guid: 2190f3955cd664a48ac1c80908975247,
         type: 3}
       propertyPath: m_IsActive
