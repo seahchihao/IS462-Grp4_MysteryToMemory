@@ -140,7 +140,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 1.2.3
+  bundleVersion: 1.2.4
   preloadedAssets:
   - {fileID: 0}
   - {fileID: 0}
@@ -221,7 +221,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.4
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Android: com.DefaultCompany.VRIF_Baseline
+    Android: com.SMU.DFS_prototype
     Standalone: com.SMU.DFS-prototype
   buildNumber:
     Standalone: 0
