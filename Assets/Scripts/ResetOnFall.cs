@@ -1,38 +1,44 @@
 using UnityEngine;
 
-public class ResetOnFall : MonoBehaviour
+public class ResetPrefabPosition : MonoBehaviour
 {
-    private Vector3 originalPosition;
-    private Quaternion originalRotation;
+    private Vector3 originalPosition; // Store the original position
+    private bool isDropped = false; // Flag to check if the object has dropped
+    public string floorTag = "Floor"; // The floor tag to detect collision with the floor
 
     void Start()
     {
-        // Save original spawn position and rotation
+        // Store the original position when the script starts
         originalPosition = transform.position;
-        originalRotation = transform.rotation;
     }
 
-    private void OnTriggerEnter(Collider other)
+    void Update()
     {
-        // If the item touches the floor, reset it
-        if (other.CompareTag("Floor"))
+        // Reset the position if the object is touching the floor
+        if (!isDropped && IsOnFloor())
         {
-            ResetItem();
+            ResetPosition();
         }
     }
 
-    void ResetItem()
+    // Check if the object is on the floor by checking if it collides with an object with the "Floor" tag
+    bool IsOnFloor()
     {
-        // Reset transform
+        Collider[] colliders = Physics.OverlapSphere(transform.position, 0.1f); // A small radius to check around the prefab
+        foreach (var collider in colliders)
+        {
+            if (collider.CompareTag(floorTag)) // Check if the collided object has the "Floor" tag
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // Reset the position to the original position
+    void ResetPosition()
+    {
         transform.position = originalPosition;
-        transform.rotation = originalRotation;
-
-        // Reset physics
-        Rigidbody rb = GetComponent<Rigidbody>();
-        if (rb != null)
-        {
-            rb.linearVelocity = Vector3.zero;
-            rb.angularVelocity = Vector3.zero;
-        }
+        isDropped = true; // Mark the object as dropped
     }
 }

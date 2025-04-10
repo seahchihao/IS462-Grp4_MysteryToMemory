@@ -1,48 +1,40 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class BenchInteraction : MonoBehaviour
+public class BenchTrigger : MonoBehaviour
 {
-    public GameObject hiddenPhotoPrefab; // Reference to the hidden photo prefab
-    public int requiredFlowers = 2; // Number of flowers required to trigger the photo
+    public GameObject hiddenPrefab; // The hidden prefab that appears when flowers are placed
+    private int flowersOnBench = 0; // Counter to track how many flowers are on the bench
 
-    private int flowersOnBench = 0; // Counter for flowers placed on the bench
-
-    private void Start()
-    {
-        hiddenPhotoPrefab.SetActive(false); // Ensure the photo is hidden initially
-    }
-
-    // Called when another collider enters the trigger zone
     private void OnTriggerEnter(Collider other)
     {
-        // Check if the object placed on the bench is a flower prefab
+        // Check if the object that entered is a flower
         if (other.CompareTag("Flower"))
         {
-            flowersOnBench++;
+            flowersOnBench++; // Increment the count of flowers on the bench
 
-            // If 2 flowers are placed on the bench, unveil the photo
-            if (flowersOnBench >= requiredFlowers)
+            // Optionally, you can disable the flower’s collider to prevent it from triggering multiple times
+            other.GetComponent<Collider>().enabled = false;
+
+            // If both flowers are on the bench, trigger the hidden prefab
+            if (flowersOnBench == 2)
             {
-                hiddenPhotoPrefab.SetActive(true);
+                hiddenPrefab.SetActive(true); // Make the hidden prefab appear
             }
         }
     }
 
-    // Called when another collider exits the trigger zone
     private void OnTriggerExit(Collider other)
     {
-        // If a flower is removed from the bench, decrease the counter
+        // Check if the object that exited is a flower
         if (other.CompareTag("Flower"))
         {
-            flowersOnBench--;
+            flowersOnBench--; // Decrement the count of flowers on the bench
 
-            // If less than 2 flowers are left, keep the photo hidden
-            if (flowersOnBench < requiredFlowers)
-            {
-                hiddenPhotoPrefab.SetActive(false);
-            }
+            // If you want the hidden prefab to disappear when a flower is removed, uncomment this line
+            // if (flowersOnBench < 2)
+            // {
+            //     hiddenPrefab.SetActive(false);
+            // }
         }
     }
 }
