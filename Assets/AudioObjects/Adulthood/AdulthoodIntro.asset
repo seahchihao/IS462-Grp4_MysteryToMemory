@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: AdulthoodIntro
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: bda5ac22519e1482c8e976abb79ea92b, type: 3}
-  subtitle: "Adulthood marked the beginning of new responsibilities in work and personal
-    life. Amidst the facade of these responsibilities, Johnny\u2019s adulthood was
-    one filled with love, fulfillment and meaning. On the floor on one of the parcels,
-    you will find a photo that holds a memory of this life that will lead you on
-    a meaningful step forward in Johnny\u2019s life. "
+  subtitle: "Adulthood brought new responsibilities in work and personal life for
+    Johnny. He needs your help to manage these new responsibilities by sorting and
+    delivering the parcels on the floor to the correct building. In doing so, memories
+    of Johnny\u2019s adulthood will be revealed to lead you onwards in Johnny\u2019s
+    life."
