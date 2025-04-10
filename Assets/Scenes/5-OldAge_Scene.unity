@@ -1447,7 +1447,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onGrab.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1150007992}
+      objectReference: {fileID: 1740799872}
     - target: {fileID: 5793688761819718492, guid: c7bcb5fdaf7c54feab01a663dfa0fcc2,
         type: 3}
       propertyPath: onGrab.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
@@ -13926,6 +13926,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000010579214770, guid: e09a11586cdd418499a85b8bf336c09b,
     type: 3}
   m_PrefabInstance: {fileID: 1737676787}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1740799872 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7694994927430003913, guid: c7bcb5fdaf7c54feab01a663dfa0fcc2,
+    type: 3}
+  m_PrefabInstance: {fileID: 99101588}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1740971183 stripped
 Transform:
