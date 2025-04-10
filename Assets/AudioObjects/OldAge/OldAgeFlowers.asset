@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: OldAgeFlowers
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: d1865ae54635729498b90a4883a42c9a, type: 3}
-  subtitle: 'After every walk, Johnny picked flowers for his grandchild, a quiet
-    way of sharing love. Collect a few and place them on the bench. '
+  subtitle: After every walk, Johnny picked flowers for his grandchild, a quiet way
+    of sharing love. Collect a few and place them on the bench to unveil the hidden
+    photo.
