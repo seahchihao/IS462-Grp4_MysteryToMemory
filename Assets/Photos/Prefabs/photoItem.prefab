@@ -226,7 +226,7 @@ MonoBehaviour:
   GrabPhysics: 4
   GrabMechanic: 0
   GrabSpeed: 10
-  RemoteGrabbable: 0
+  RemoteGrabbable: 1
   RemoteGrabMechanic: 0
   RemoteGrabDistance: 1
   CanDropMidGrab: 0
