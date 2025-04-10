@@ -11,7 +11,7 @@ public class SceneTransition : MonoBehaviour
         {
             if (sceneTransitionManager != null)
             {
-                sceneTransitionManager.GoToSceneAsync(sceneIndexToLoad);
+                sceneTransitionManager.GoToScene(sceneIndexToLoad);
             }
             else
             {
