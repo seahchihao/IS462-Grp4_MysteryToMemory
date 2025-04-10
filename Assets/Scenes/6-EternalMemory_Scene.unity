@@ -229,7 +229,7 @@ PrefabInstance:
     - target: {fileID: 3136708575741546221, guid: e4a3a3831415d314398925f47fc26dba,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5427397905458282780, guid: e4a3a3831415d314398925f47fc26dba,
         type: 3}
@@ -246,6 +246,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8626071804415644675, guid: e4a3a3831415d314398925f47fc26dba,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9006678322310368953, guid: e4a3a3831415d314398925f47fc26dba,
         type: 3}
@@ -321,6 +326,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -1798236731520113943, guid: c80af668d52e34c41b6a06c8bedb2bec,
         type: 3}
+    - target: {fileID: 3136708575741546221, guid: e4a3a3831415d314398925f47fc26dba,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5427397905458282780, guid: e4a3a3831415d314398925f47fc26dba,
         type: 3}
       propertyPath: m_Mesh
@@ -336,6 +346,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8626071804415644675, guid: e4a3a3831415d314398925f47fc26dba,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9006678322310368953, guid: e4a3a3831415d314398925f47fc26dba,
         type: 3}
@@ -416,6 +431,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1495164680010374745, guid: d7d9e360e7678114db43d5b4dcbeef27,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2165515277437696259, guid: d7d9e360e7678114db43d5b4dcbeef27,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2302523541901984995, guid: d7d9e360e7678114db43d5b4dcbeef27,
         type: 3}
       propertyPath: m_RootOrder
@@ -490,6 +515,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8641692736149702180, guid: 4d719afe202602344aa4a8245c217267,
         type: 3}
+    - target: {fileID: 3479580501106752076, guid: 5935ebe6fbcf03b478363361161c2c52,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5757586173333432677, guid: 5935ebe6fbcf03b478363361161c2c52,
         type: 3}
       propertyPath: m_Mesh
@@ -500,6 +530,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hill_20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8287473406459395194, guid: 5935ebe6fbcf03b478363361161c2c52,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8667412279730529984, guid: 5935ebe6fbcf03b478363361161c2c52,
         type: 3}
@@ -584,6 +619,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1338693063}
     m_Modifications:
+    - target: {fileID: 3180413825149742246, guid: 814bd56f499806a4eb157528ba1b93e7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3517288080126913475, guid: 814bd56f499806a4eb157528ba1b93e7,
         type: 3}
       propertyPath: m_RootOrder
@@ -658,6 +698,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain_03 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288617010861863289, guid: 814bd56f499806a4eb157528ba1b93e7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -924,6 +969,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1338693063}
     m_Modifications:
+    - target: {fileID: 3180413825149742246, guid: 814bd56f499806a4eb157528ba1b93e7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3517288080126913475, guid: 814bd56f499806a4eb157528ba1b93e7,
         type: 3}
       propertyPath: m_RootOrder
@@ -984,6 +1034,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain_03 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4288617010861863289, guid: 814bd56f499806a4eb157528ba1b93e7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1003,6 +1058,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8641692736149702180, guid: 4d719afe202602344aa4a8245c217267,
         type: 3}
+    - target: {fileID: 3479580501106752076, guid: 5935ebe6fbcf03b478363361161c2c52,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5757586173333432677, guid: 5935ebe6fbcf03b478363361161c2c52,
         type: 3}
       propertyPath: m_Mesh
@@ -1013,6 +1073,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hill_20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8287473406459395194, guid: 5935ebe6fbcf03b478363361161c2c52,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8667412279730529984, guid: 5935ebe6fbcf03b478363361161c2c52,
         type: 3}
@@ -1187,6 +1252,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495164680010374745, guid: d7d9e360e7678114db43d5b4dcbeef27,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2165515277437696259, guid: d7d9e360e7678114db43d5b4dcbeef27,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2302523541901984995, guid: d7d9e360e7678114db43d5b4dcbeef27,
         type: 3}
@@ -1765,10 +1840,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4713855613245048852, guid: 0f54ae3b142db884598d8ef39e370f04,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5462745092434763101, guid: 0f54ae3b142db884598d8ef39e370f04,
         type: 3}
       propertyPath: m_Name
       value: Mountain_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5462745092434763101, guid: 0f54ae3b142db884598d8ef39e370f04,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2409,7 +2494,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: eb4f63a1c24846549b212d7c7f64a784, type: 2}
+  - {fileID: 2100000, guid: 810568a8d5fe6de4490cd0917434da40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2838,6 +2923,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1338693063}
     m_Modifications:
+    - target: {fileID: 3180413825149742246, guid: 814bd56f499806a4eb157528ba1b93e7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3517288080126913475, guid: 814bd56f499806a4eb157528ba1b93e7,
         type: 3}
       propertyPath: m_RootOrder
@@ -2912,6 +3002,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288617010861863289, guid: 814bd56f499806a4eb157528ba1b93e7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2988,6 +3083,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -4068682183718184853, guid: 08f382c8db2882046a92feb3644929c3,
         type: 3}
+    - target: {fileID: 2152830125313197986, guid: 44e1c73682a12d0488e798d725f959ba,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4672894480021577701, guid: 44e1c73682a12d0488e798d725f959ba,
         type: 3}
       propertyPath: m_Mesh
@@ -3053,6 +3153,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Terrain_34
+      objectReference: {fileID: 0}
+    - target: {fileID: 8952452356171008762, guid: 44e1c73682a12d0488e798d725f959ba,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3170,10 +3275,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4713855613245048852, guid: 0f54ae3b142db884598d8ef39e370f04,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5462745092434763101, guid: 0f54ae3b142db884598d8ef39e370f04,
         type: 3}
       propertyPath: m_Name
       value: Mountain_02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5462745092434763101, guid: 0f54ae3b142db884598d8ef39e370f04,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3256,6 +3371,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1338693063}
     m_Modifications:
+    - target: {fileID: 1080171807484010650, guid: 46af3eaf86a11f14d9dc62731a879bc4,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1192132315364733234, guid: 46af3eaf86a11f14d9dc62731a879bc4,
         type: 3}
       propertyPath: m_RootOrder
@@ -3315,6 +3435,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1999772691093285768, guid: 46af3eaf86a11f14d9dc62731a879bc4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3405,10 +3530,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9132935368510615514, guid: bd990ac669211be4db772f0e9ed561b2,
         type: 3}
+    - target: {fileID: 6736686570778310271, guid: e815694096daf884b87467bd4350d645,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6887980663269419586, guid: e815694096daf884b87467bd4350d645,
         type: 3}
       propertyPath: m_Name
       value: Hill_16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887980663269419586, guid: e815694096daf884b87467bd4350d645,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7166087729620565853, guid: e815694096daf884b87467bd4350d645,
         type: 3}
@@ -3444,6 +3579,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2629501965727600922, guid: 85b3e134a90892e4d8d9031922f37e5f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3401922750650174368, guid: 85b3e134a90892e4d8d9031922f37e5f,
         type: 3}
@@ -3506,6 +3646,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -3444536453498050540, guid: 39949e6ba1ad33447bd257b819828477,
         type: 3}
+    - target: {fileID: 8439773939839373697, guid: 85b3e134a90892e4d8d9031922f37e5f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3586,6 +3731,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -3679345136830908542, guid: 75bc944680fbefe4a81fc6ad2aee537a,
         type: 3}
+    - target: {fileID: 8129501283017086543, guid: ab88b6c080e64d24eb8e791fcf09f685,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8616002307149985530, guid: ab88b6c080e64d24eb8e791fcf09f685,
         type: 3}
       propertyPath: m_RootOrder
@@ -3661,6 +3811,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hill_17
       objectReference: {fileID: 0}
+    - target: {fileID: 8996468976870403136, guid: ab88b6c080e64d24eb8e791fcf09f685,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3680,6 +3835,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7684699185549457756, guid: 6b233decf450f2445bbe180310d8f665,
         type: 3}
+    - target: {fileID: 646325978163283697, guid: 10bb8d71ceec06146aadc77c03ca036c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5835639005911630623, guid: 10bb8d71ceec06146aadc77c03ca036c,
         type: 3}
       propertyPath: m_RootOrder
@@ -3755,6 +3915,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hill_18
       objectReference: {fileID: 0}
+    - target: {fileID: 6608903181000153509, guid: 10bb8d71ceec06146aadc77c03ca036c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7445436809549040826, guid: 10bb8d71ceec06146aadc77c03ca036c,
         type: 3}
       propertyPath: m_Mesh
@@ -3774,6 +3939,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1338693063}
     m_Modifications:
+    - target: {fileID: 3180413825149742246, guid: 814bd56f499806a4eb157528ba1b93e7,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3517288080126913475, guid: 814bd56f499806a4eb157528ba1b93e7,
         type: 3}
       propertyPath: m_RootOrder
@@ -3833,6 +4003,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288617010861863289, guid: 814bd56f499806a4eb157528ba1b93e7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4176,6 +4351,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1338693063}
     m_Modifications:
+    - target: {fileID: 6589979322169892317, guid: 3fed4e8710180944ba2a389b584c1c86,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7166922998251501487, guid: 3fed4e8710180944ba2a389b584c1c86,
         type: 3}
       propertyPath: m_RootOrder
@@ -4251,6 +4431,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain_04 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7511395951658659093, guid: 3fed4e8710180944ba2a389b584c1c86,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4279,6 +4464,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2629501965727600922, guid: 85b3e134a90892e4d8d9031922f37e5f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3401922750650174368, guid: 85b3e134a90892e4d8d9031922f37e5f,
         type: 3}
@@ -4341,6 +4531,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -3444536453498050540, guid: 39949e6ba1ad33447bd257b819828477,
         type: 3}
+    - target: {fileID: 8439773939839373697, guid: 85b3e134a90892e4d8d9031922f37e5f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4780,6 +4975,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -4068682183718184853, guid: 08f382c8db2882046a92feb3644929c3,
         type: 3}
+    - target: {fileID: 2152830125313197986, guid: 44e1c73682a12d0488e798d725f959ba,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4672894480021577701, guid: 44e1c73682a12d0488e798d725f959ba,
         type: 3}
       propertyPath: m_Mesh
@@ -4845,6 +5045,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Terrain_34
+      objectReference: {fileID: 0}
+    - target: {fileID: 8952452356171008762, guid: 44e1c73682a12d0488e798d725f959ba,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4929,10 +5134,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4713855613245048852, guid: 0f54ae3b142db884598d8ef39e370f04,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5462745092434763101, guid: 0f54ae3b142db884598d8ef39e370f04,
         type: 3}
       propertyPath: m_Name
       value: Mountain_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5462745092434763101, guid: 0f54ae3b142db884598d8ef39e370f04,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4965,6 +5180,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -3679345136830908542, guid: 75bc944680fbefe4a81fc6ad2aee537a,
         type: 3}
+    - target: {fileID: 8129501283017086543, guid: ab88b6c080e64d24eb8e791fcf09f685,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8616002307149985530, guid: ab88b6c080e64d24eb8e791fcf09f685,
         type: 3}
       propertyPath: m_RootOrder
@@ -5040,6 +5260,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hill_17
       objectReference: {fileID: 0}
+    - target: {fileID: 8996468976870403136, guid: ab88b6c080e64d24eb8e791fcf09f685,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5074,6 +5299,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2629501965727600922, guid: 85b3e134a90892e4d8d9031922f37e5f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3401922750650174368, guid: 85b3e134a90892e4d8d9031922f37e5f,
         type: 3}
@@ -5136,6 +5366,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -3444536453498050540, guid: 39949e6ba1ad33447bd257b819828477,
         type: 3}
+    - target: {fileID: 8439773939839373697, guid: 85b3e134a90892e4d8d9031922f37e5f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5647,10 +5882,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 943113142}
-    - targetCorrespondingSourceObject: {fileID: 647301298, guid: e4819389334c4504290937beeb9cd43b,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: e4819389334c4504290937beeb9cd43b, type: 3}
 --- !u!224 &1159211038 stripped
 RectTransform:
@@ -5678,6 +5909,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -1798236731520113943, guid: c80af668d52e34c41b6a06c8bedb2bec,
         type: 3}
+    - target: {fileID: 3136708575741546221, guid: e4a3a3831415d314398925f47fc26dba,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5427397905458282780, guid: e4a3a3831415d314398925f47fc26dba,
         type: 3}
       propertyPath: m_Mesh
@@ -5693,6 +5929,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8626071804415644675, guid: e4a3a3831415d314398925f47fc26dba,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9006678322310368953, guid: e4a3a3831415d314398925f47fc26dba,
         type: 3}
@@ -6676,7 +6917,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1338693063
 Transform:
@@ -7184,6 +7425,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1338693063}
     m_Modifications:
+    - target: {fileID: 6589979322169892317, guid: 3fed4e8710180944ba2a389b584c1c86,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7166922998251501487, guid: 3fed4e8710180944ba2a389b584c1c86,
         type: 3}
       propertyPath: m_RootOrder
@@ -7259,6 +7505,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mountain_04 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7511395951658659093, guid: 3fed4e8710180944ba2a389b584c1c86,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7278,10 +7529,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -8360736102324266873, guid: 67c839d68ead8044aade0429cc52c8f7,
         type: 3}
+    - target: {fileID: 1077718321651336044, guid: c9f4109257121d64c81275094d292fea,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1320356591564576449, guid: c9f4109257121d64c81275094d292fea,
         type: 3}
       propertyPath: m_Name
       value: Hill_19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1320356591564576449, guid: c9f4109257121d64c81275094d292fea,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1808487718531697787, guid: c9f4109257121d64c81275094d292fea,
         type: 3}
@@ -8252,6 +8513,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -4068682183718184853, guid: 08f382c8db2882046a92feb3644929c3,
         type: 3}
+    - target: {fileID: 2152830125313197986, guid: 44e1c73682a12d0488e798d725f959ba,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4672894480021577701, guid: 44e1c73682a12d0488e798d725f959ba,
         type: 3}
       propertyPath: m_Mesh
@@ -8317,6 +8583,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Terrain_34
+      objectReference: {fileID: 0}
+    - target: {fileID: 8952452356171008762, guid: 44e1c73682a12d0488e798d725f959ba,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8401,10 +8672,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4713855613245048852, guid: 0f54ae3b142db884598d8ef39e370f04,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5462745092434763101, guid: 0f54ae3b142db884598d8ef39e370f04,
         type: 3}
       propertyPath: m_Name
       value: Mountain_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5462745092434763101, guid: 0f54ae3b142db884598d8ef39e370f04,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8423,6 +8704,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495164680010374745, guid: d7d9e360e7678114db43d5b4dcbeef27,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2165515277437696259, guid: d7d9e360e7678114db43d5b4dcbeef27,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2302523541901984995, guid: d7d9e360e7678114db43d5b4dcbeef27,
         type: 3}
@@ -9027,6 +9318,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1338693063}
     m_Modifications:
+    - target: {fileID: 6589979322169892317, guid: 3fed4e8710180944ba2a389b584c1c86,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7166922998251501487, guid: 3fed4e8710180944ba2a389b584c1c86,
         type: 3}
       propertyPath: m_RootOrder
@@ -9101,6 +9397,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511395951658659093, guid: 3fed4e8710180944ba2a389b584c1c86,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9250,10 +9551,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9132935368510615514, guid: bd990ac669211be4db772f0e9ed561b2,
         type: 3}
+    - target: {fileID: 6736686570778310271, guid: e815694096daf884b87467bd4350d645,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6887980663269419586, guid: e815694096daf884b87467bd4350d645,
         type: 3}
       propertyPath: m_Name
       value: Hill_16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887980663269419586, guid: e815694096daf884b87467bd4350d645,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7166087729620565853, guid: e815694096daf884b87467bd4350d645,
         type: 3}
@@ -9350,10 +9661,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9132935368510615514, guid: bd990ac669211be4db772f0e9ed561b2,
         type: 3}
+    - target: {fileID: 6736686570778310271, guid: e815694096daf884b87467bd4350d645,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6887980663269419586, guid: e815694096daf884b87467bd4350d645,
         type: 3}
       propertyPath: m_Name
       value: Hill_16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887980663269419586, guid: e815694096daf884b87467bd4350d645,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7166087729620565853, guid: e815694096daf884b87467bd4350d645,
         type: 3}
@@ -9444,10 +9765,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4713855613245048852, guid: 0f54ae3b142db884598d8ef39e370f04,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5462745092434763101, guid: 0f54ae3b142db884598d8ef39e370f04,
         type: 3}
       propertyPath: m_Name
       value: Mountain_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5462745092434763101, guid: 0f54ae3b142db884598d8ef39e370f04,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9466,6 +9797,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mountain_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1495164680010374745, guid: d7d9e360e7678114db43d5b4dcbeef27,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2165515277437696259, guid: d7d9e360e7678114db43d5b4dcbeef27,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2302523541901984995, guid: d7d9e360e7678114db43d5b4dcbeef27,
         type: 3}
@@ -10021,6 +10362,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -3679345136830908542, guid: 75bc944680fbefe4a81fc6ad2aee537a,
         type: 3}
+    - target: {fileID: 8129501283017086543, guid: ab88b6c080e64d24eb8e791fcf09f685,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8616002307149985530, guid: ab88b6c080e64d24eb8e791fcf09f685,
         type: 3}
       propertyPath: m_RootOrder
@@ -10095,6 +10441,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hill_17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8996468976870403136, guid: ab88b6c080e64d24eb8e791fcf09f685,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10636,7 +10987,7 @@ PrefabInstance:
     - target: {fileID: 8858460719086918109, guid: 1f75a4a1ec4271442a6c51de842cadf0,
         type: 3}
       propertyPath: m_FontData.m_MinSize
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8858460719086918109, guid: 1f75a4a1ec4271442a6c51de842cadf0,
         type: 3}
@@ -10651,6 +11002,11 @@ PrefabInstance:
     - target: {fileID: 8858460719086918109, guid: 1f75a4a1ec4271442a6c51de842cadf0,
         type: 3}
       propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8858460719086918109, guid: 1f75a4a1ec4271442a6c51de842cadf0,
+        type: 3}
+      propertyPath: m_FontData.m_LineSpacing
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
