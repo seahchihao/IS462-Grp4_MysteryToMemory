@@ -2854,6 +2854,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4788833
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.1751525
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7377
+      objectReference: {fileID: 0}
     - target: {fileID: 2871499900650828525, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_UseSpring
@@ -2882,17 +2897,17 @@ PrefabInstance:
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3649669
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1766614
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.1766614
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
@@ -2948,6 +2963,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SportsRoomDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719423358683410587, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4788833
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719423358683410587, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1751525
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719423358683410587, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0989
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4095,6 +4125,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.463374
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.1781725
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7309
+      objectReference: {fileID: 0}
     - target: {fileID: 2871499900650828525, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_UseSpring
@@ -4123,17 +4168,17 @@ PrefabInstance:
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3649669
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1766614
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.1766614
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
@@ -4189,6 +4234,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ToiletDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719423358683410587, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.463374
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719423358683410587, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1781725
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719423358683410587, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0987
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5514,6 +5574,26 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4326162
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.1786932
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.6976
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
     - target: {fileID: 2871499900650828525, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_UseSpring
@@ -5542,17 +5622,17 @@ PrefabInstance:
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3649668
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1766614
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.1766614
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
@@ -5608,6 +5688,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DoorWithHandle (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719423358683410587, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4326162
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719423358683410587, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1786932
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719423358683410587, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0788
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8150,6 +8245,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4389954
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.176431
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7135
+      objectReference: {fileID: 0}
     - target: {fileID: 2871499900650828525, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_UseSpring
@@ -8178,17 +8288,17 @@ PrefabInstance:
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3649669
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1766614
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.1766614
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
@@ -8244,6 +8354,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Room2Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719423358683410587, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4389954
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719423358683410587, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.176431
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719423358683410587, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0918
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8733,6 +8858,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4351887
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.1780549
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7209
+      objectReference: {fileID: 0}
     - target: {fileID: 2871499900650828525, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_UseSpring
@@ -8761,17 +8901,17 @@ PrefabInstance:
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3649669
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1766614
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.1766614
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
@@ -8827,6 +8967,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DoorWithHandle (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719423358683410587, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4351887
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719423358683410587, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1780549
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719423358683410587, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.101
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13547,6 +13702,31 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4148624
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.1731845
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7103
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
     - target: {fileID: 2871499900650828525, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_UseSpring
@@ -13575,17 +13755,17 @@ PrefabInstance:
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3649668
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1766614
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.1766614
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
@@ -13641,6 +13821,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MusicRoomDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719423358683410587, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4148624
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719423358683410587, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1731845
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719423358683410587, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.099
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719423358683410587, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14635,6 +14835,31 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4456209
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.1735724
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7317
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871499900650828515, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
     - target: {fileID: 2871499900650828525, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_UseSpring
@@ -14663,17 +14888,17 @@ PrefabInstance:
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3649668
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1766614
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.1766614
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2871499901593167896, guid: 2a0c9adeb1b50e344acb742002b9022a,
         type: 3}
@@ -14729,6 +14954,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CarRoomDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719423358683410587, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4456209
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719423358683410587, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1735724
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719423358683410587, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1072
+      objectReference: {fileID: 0}
+    - target: {fileID: 7719423358683410587, guid: 2a0c9adeb1b50e344acb742002b9022a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
