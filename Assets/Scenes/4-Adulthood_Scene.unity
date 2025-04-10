@@ -439,7 +439,6 @@ GameObject:
   - component: {fileID: 14450276}
   - component: {fileID: 14450275}
   - component: {fileID: 14450278}
-  - component: {fileID: 14450279}
   m_Layer: 0
   m_Name: ParcelChecker
   m_TagString: Untagged
@@ -549,24 +548,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deliverySound: {fileID: 8300000, guid: 22f162556a358ff4381a07625e89ea87, type: 3}
---- !u!114 &14450279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 14450273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 1
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 10
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!1001 &16040790
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2950,7 +2931,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.46666288, y: -1.309}
+  m_AnchoredPosition: {x: 0.473, y: -1.309}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &127498987
@@ -7037,7 +7018,6 @@ GameObject:
   - component: {fileID: 306378802}
   - component: {fileID: 306378801}
   - component: {fileID: 306378800}
-  - component: {fileID: 306378804}
   m_Layer: 0
   m_Name: ParcelChecker (1)
   m_TagString: Untagged
@@ -7147,24 +7127,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 306378798}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &306378804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 306378798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 1
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 10
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!1001 &314223843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11085,7 +11047,7 @@ Transform:
   m_GameObject: {fileID: 519275742}
   serializedVersion: 2
   m_LocalRotation: {x: -0.00000001545431, y: 0.7071068, z: -0.00000001545431, w: 0.7071068}
-  m_LocalPosition: {x: 3.57, y: 9.96, z: 0.01}
+  m_LocalPosition: {x: 3.61, y: 9.96, z: 0.01}
   m_LocalScale: {x: 7.119724, y: 1.2442, z: 0.045142002}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20948,7 +20910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4207958029483492, guid: 1388611d0c053e54ab3bb60eb6e40eb0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.15
+      value: -0.12
       objectReference: {fileID: 0}
     - target: {fileID: 4207958029483492, guid: 1388611d0c053e54ab3bb60eb6e40eb0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -20956,7 +20918,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4207958029483492, guid: 1388611d0c053e54ab3bb60eb6e40eb0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.124
+      value: -0.082
       objectReference: {fileID: 0}
     - target: {fileID: 4207958029483492, guid: 1388611d0c053e54ab3bb60eb6e40eb0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -21577,7 +21539,6 @@ GameObject:
   - component: {fileID: 964798965}
   - component: {fileID: 964798968}
   - component: {fileID: 964798969}
-  - component: {fileID: 964798970}
   m_Layer: 0
   m_Name: ParcelChecker (2)
   m_TagString: Untagged
@@ -21700,24 +21661,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipToPlay: {fileID: 11400000, guid: 8aaed6d480206e64cb33071194d9c30d, type: 2}
---- !u!114 &964798970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 964798963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 1
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 10
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!1001 &966394985
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22843,7 +22786,7 @@ PrefabInstance:
     - target: {fileID: 6065732222583390601, guid: 4ac7df741a9c0a2418ec19477729ee3d,
         type: 3}
       propertyPath: DefaultLocomotion
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6065732222583390601, guid: 4ac7df741a9c0a2418ec19477729ee3d,
         type: 3}
@@ -23929,8 +23872,8 @@ Transform:
   m_GameObject: {fileID: 1024070505}
   serializedVersion: 2
   m_LocalRotation: {x: -0.00000001545431, y: 0.7071068, z: -0.00000001545431, w: 0.7071068}
-  m_LocalPosition: {x: 3.566, y: 12.143, z: 0.01}
-  m_LocalScale: {x: 7.119724, y: 1.2442, z: 0.045142002}
+  m_LocalPosition: {x: 3.59, y: 12.143, z: 0.01}
+  m_LocalScale: {x: 7.119724, y: 1.2571397, z: 0.045142002}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1367466878}
@@ -28388,7 +28331,7 @@ Transform:
   m_GameObject: {fileID: 1180668788}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.003, y: 0.007, z: 0}
+  m_LocalPosition: {x: -0, y: 0.007, z: 0.02}
   m_LocalScale: {x: 7.167323, y: 1.256642, z: 0.045142}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -30215,7 +30158,6 @@ GameObject:
   - component: {fileID: 1234358205}
   - component: {fileID: 1234358204}
   - component: {fileID: 1234358203}
-  - component: {fileID: 1234358207}
   m_Layer: 0
   m_Name: ParcelChecker (1)
   m_TagString: Untagged
@@ -30325,24 +30267,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1234358201}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1234358207
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1234358201}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 1
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 10
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!1001 &1234364232
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32352,7 +32276,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.485, y: -1.302}
+  m_AnchoredPosition: {x: 0.478, y: -1.302}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1319650163
@@ -44071,7 +43995,7 @@ Transform:
   m_GameObject: {fileID: 1729623896}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.003, y: 2.185, z: 0}
+  m_LocalPosition: {x: 0.003, y: 2.185, z: 0.035}
   m_LocalScale: {x: 7.167323, y: 1.2442, z: 0.045142}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -46459,7 +46383,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4133818570601586, guid: 486263a6295235a40a3ba56b8111437e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.32
+      value: 1.372
       objectReference: {fileID: 0}
     - target: {fileID: 4133818570601586, guid: 486263a6295235a40a3ba56b8111437e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -48339,7 +48263,6 @@ GameObject:
   - component: {fileID: 1886348188}
   - component: {fileID: 1886348191}
   - component: {fileID: 1886348192}
-  - component: {fileID: 1886348193}
   m_Layer: 0
   m_Name: ParcelChecker (2)
   m_TagString: Untagged
@@ -48462,24 +48385,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipToPlay: {fileID: 11400000, guid: 432fafbf89ea3c84ea15b84f89a1ac76, type: 2}
---- !u!114 &1886348193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1886348186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 1
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 10
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!1001 &1886726237
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48911,7 +48816,7 @@ Transform:
   m_GameObject: {fileID: 1893925524}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.35846668, z: -0, w: 0.9335426}
-  m_LocalPosition: {x: 0.031008389, y: -0.13297835, z: 0.595056}
+  m_LocalPosition: {x: 0.046, y: -0.13297835, z: 0.7}
   m_LocalScale: {x: 0.7495935, y: 0.07266575, z: 0.89851815}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -52320,7 +52225,6 @@ GameObject:
   - component: {fileID: 2030095395}
   - component: {fileID: 2030095394}
   - component: {fileID: 2030095397}
-  - component: {fileID: 2030095398}
   m_Layer: 0
   m_Name: ParcelChecker
   m_TagString: Untagged
@@ -52430,24 +52334,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deliverySound: {fileID: 8300000, guid: 22f162556a358ff4381a07625e89ea87, type: 3}
---- !u!114 &2030095398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2030095392}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 1
-  outlineColor: {r: 1, g: 1, b: 1, a: 1}
-  outlineWidth: 10
-  precomputeOutline: 0
-  bakeKeys: []
-  bakeValues: []
 --- !u!1001 &2032649710
 PrefabInstance:
   m_ObjectHideFlags: 0

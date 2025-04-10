@@ -11,6 +11,8 @@ TagManager:
   - WorkParcel
   - StoryParcel
   - Flower
+  - Toy
+  - Pre-school
   layers:
   - Default
   - TransparentFX
