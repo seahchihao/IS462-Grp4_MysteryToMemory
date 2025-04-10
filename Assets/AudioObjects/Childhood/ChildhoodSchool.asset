@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63099aaa365ae461898e4e3ff4e53e20, type: 3}
   m_Name: ChildhoodSchool
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
-  subtitle: 
+  clip: {fileID: 8300000, guid: a9832ffe032a84dbcb2236ee0c8802e6, type: 3}
+  subtitle: "School was where Johnny\u2019s curiosity bloomed. He was that kid who
+    asked \u2018why\u2019 five times in a row, especially during science class."
