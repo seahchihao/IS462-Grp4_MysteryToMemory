@@ -430,8 +430,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8944784223807074626}
   serializedVersion: 4
-  m_Mass: 100
-  m_Drag: 1.5
+  m_Mass: 10
+  m_Drag: 0.5
   m_AngularDrag: 0.5
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -535,8 +535,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outlineMode: 1
-  outlineColor: {r: 0, g: 0, b: 0, a: 1}
-  outlineWidth: 6
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 10
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
