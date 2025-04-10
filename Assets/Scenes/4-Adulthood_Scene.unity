@@ -11902,14 +11902,8 @@ MonoBehaviour:
   - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
   - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
   - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
-  - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
-  - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
-  - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
-  - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
-  - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
-  - {fileID: 8944784223807074626, guid: ff8ae817a949ff54fab2f9982b188604, type: 3}
   boundary: {fileID: 31455924}
-  numberOfObjects: 10
+  numberOfObjects: 5
   minDistance: 2
   minY: 1
   maxY: 2
@@ -11932,14 +11926,8 @@ MonoBehaviour:
   - {fileID: 8944784223807074626, guid: 42181ddbc96f2bd4b8f21beaf37abe34, type: 3}
   - {fileID: 8944784223807074626, guid: 42181ddbc96f2bd4b8f21beaf37abe34, type: 3}
   - {fileID: 8944784223807074626, guid: 42181ddbc96f2bd4b8f21beaf37abe34, type: 3}
-  - {fileID: 8944784223807074626, guid: 42181ddbc96f2bd4b8f21beaf37abe34, type: 3}
-  - {fileID: 8944784223807074626, guid: 42181ddbc96f2bd4b8f21beaf37abe34, type: 3}
-  - {fileID: 8944784223807074626, guid: 42181ddbc96f2bd4b8f21beaf37abe34, type: 3}
-  - {fileID: 8944784223807074626, guid: 42181ddbc96f2bd4b8f21beaf37abe34, type: 3}
-  - {fileID: 8944784223807074626, guid: 42181ddbc96f2bd4b8f21beaf37abe34, type: 3}
-  - {fileID: 8944784223807074626, guid: 42181ddbc96f2bd4b8f21beaf37abe34, type: 3}
   boundary: {fileID: 31455924}
-  numberOfObjects: 10
+  numberOfObjects: 5
   minDistance: 2
   minY: 1
   maxY: 2
@@ -21550,6 +21538,7 @@ GameObject:
   - component: {fileID: 964798966}
   - component: {fileID: 964798965}
   - component: {fileID: 964798968}
+  - component: {fileID: 964798969}
   m_Layer: 0
   m_Name: ParcelChecker (2)
   m_TagString: Untagged
@@ -21659,6 +21648,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deliverySound: {fileID: 8300000, guid: 22f162556a358ff4381a07625e89ea87, type: 3}
+--- !u!114 &964798969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964798963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9271a7ac4b868534f8a17f410292d22a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipToPlay: {fileID: 11400000, guid: 8aaed6d480206e64cb33071194d9c30d, type: 2}
 --- !u!1001 &966394985
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22021,7 +22023,7 @@ Transform:
   m_GameObject: {fileID: 973199628}
   serializedVersion: 2
   m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: -0.21, y: -3.49, z: -4.52}
+  m_LocalPosition: {x: -0.21, y: -1.24, z: -4.52}
   m_LocalScale: {x: 9.268542, y: 10.13553, z: 0.9091844}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -43425,7 +43427,7 @@ PrefabInstance:
     - target: {fileID: 2012949219735082027, guid: 6f7563a0866b7e5449652d0550bbafc4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.795
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: 2012949219735082027, guid: 6f7563a0866b7e5449652d0550bbafc4,
         type: 3}
@@ -48260,6 +48262,7 @@ GameObject:
   - component: {fileID: 1886348189}
   - component: {fileID: 1886348188}
   - component: {fileID: 1886348191}
+  - component: {fileID: 1886348192}
   m_Layer: 0
   m_Name: ParcelChecker (2)
   m_TagString: Untagged
@@ -48369,6 +48372,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deliverySound: {fileID: 8300000, guid: 22f162556a358ff4381a07625e89ea87, type: 3}
+--- !u!114 &1886348192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886348186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 940a3f2d817799046968e1a2bb94f680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipToPlay: {fileID: 11400000, guid: 432fafbf89ea3c84ea15b84f89a1ac76, type: 2}
 --- !u!1001 &1886726237
 PrefabInstance:
   m_ObjectHideFlags: 0
