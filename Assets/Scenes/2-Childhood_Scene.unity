@@ -2267,6 +2267,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7d9e360e7678114db43d5b4dcbeef27, type: 3}
+--- !u!1 &186038143 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4113219058629626008, guid: c0dd8a3b47209964098ada1b31159ccc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1422830840}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &197175821
 GameObject:
   m_ObjectHideFlags: 0
@@ -20708,10 +20714,15 @@ PrefabInstance:
       propertyPath: onGrab.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8419950315453606001, guid: c0dd8a3b47209964098ada1b31159ccc, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4113219058629626008, guid: c0dd8a3b47209964098ada1b31159ccc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1422830852}
   m_SourcePrefab: {fileID: 100100000, guid: c0dd8a3b47209964098ada1b31159ccc, type: 3}
 --- !u!114 &1422830841 stripped
 MonoBehaviour:
@@ -20719,12 +20730,85 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1422830840}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 186038143}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d078ea8d826c5457abf8f9cc41b2ea26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1422830852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186038143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cdea428d48e2bb488d33d5f75c39bb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BeingHeld: 0
+  GrabButton: 2
+  Grabtype: 2
+  GrabPhysics: 4
+  GrabMechanic: 0
+  GrabSpeed: 15
+  RemoteGrabbable: 0
+  RemoteGrabMechanic: 0
+  RemoteGrabDistance: 2
+  CanDropMidGrab: 0
+  ThrowForceMultiplier: 2
+  ThrowForceMultiplierAngular: 1.5
+  BreakDistance: 0
+  HideHandGraphics: 0
+  ParentToHands: 0
+  ParentHandModel: 1
+  SnapHandModel: 1
+  CanBeDropped: 1
+  CanBeSnappedToSnapZone: 1
+  ForceDisableKinematicOnDrop: 0
+  InstantMovement: 0
+  MakeChildCollidersGrabbable: 0
+  handPoseType: 1
+  SelectedHandPose: {fileID: 0}
+  CustomHandPose: 0
+  SecondaryGrabBehavior: 0
+  TwoHandedPosition: 0
+  TwoHandedPostionLerpAmount: 0.5
+  TwoHandedRotation: 1
+  TwoHandedRotationLerpAmount: 0.5
+  TwoHandedDropBehavior: 0
+  TwoHandedLookVector: 0
+  SecondHandLookSpeed: 40
+  SecondaryGrabbable: {fileID: 0}
+  OtherGrabbableMustBeGrabbed: {fileID: 0}
+  CollisionSpring: 3000
+  CollisionSlerp: 500
+  CollisionLinearMotionX: 2
+  CollisionLinearMotionY: 2
+  CollisionLinearMotionZ: 2
+  CollisionAngularMotionX: 2
+  CollisionAngularMotionY: 2
+  CollisionAngularMotionZ: 2
+  ApplyCorrectiveForce: 1
+  MoveVelocityForce: 3000
+  MoveAngularVelocityForce: 90
+  LastGrabTime: 0
+  LastRemoteGrabTime: 0
+  LastDropTime: 0
+  AddControllerVelocityOnDrop: 1
+  collisions: []
+  ActiveGrabPoint: {fileID: 0}
+  SecondaryLookOffset: {x: 0, y: 0, z: 0}
+  SecondaryLookAtTransform: {fileID: 0}
+  LocalOffsetTransform: {fileID: 0}
+  GrabPoints:
+  - {fileID: 2084161808}
+  - {fileID: 1956005001}
+  UseCustomInspector: 1
+  lastFlickTime: 0
+  FlickForce: 1
 --- !u!1 &1434238418 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1178298673454165650, guid: 6b751df3aa1df894eacab46675f978d6,
@@ -28313,6 +28397,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1955884401}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1956005001 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5070271713477370726, guid: c0dd8a3b47209964098ada1b31159ccc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1422830840}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1982000291
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29144,6 +29234,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5805070446340072346, guid: 33b72271289774443a99f085d90af607,
     type: 3}
   m_PrefabInstance: {fileID: 1441605930}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2084161808 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 645544674278406016, guid: c0dd8a3b47209964098ada1b31159ccc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1422830840}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2087333265
 PrefabInstance:
