@@ -439,6 +439,7 @@ GameObject:
   - component: {fileID: 14450276}
   - component: {fileID: 14450275}
   - component: {fileID: 14450278}
+  - component: {fileID: 14450279}
   m_Layer: 0
   m_Name: ParcelChecker
   m_TagString: Untagged
@@ -548,6 +549,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deliverySound: {fileID: 8300000, guid: 22f162556a358ff4381a07625e89ea87, type: 3}
+--- !u!114 &14450279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14450273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1001 &16040790
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7018,6 +7037,7 @@ GameObject:
   - component: {fileID: 306378802}
   - component: {fileID: 306378801}
   - component: {fileID: 306378800}
+  - component: {fileID: 306378804}
   m_Layer: 0
   m_Name: ParcelChecker (1)
   m_TagString: Untagged
@@ -7127,6 +7147,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 306378798}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &306378804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306378798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1001 &314223843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21539,6 +21577,7 @@ GameObject:
   - component: {fileID: 964798965}
   - component: {fileID: 964798968}
   - component: {fileID: 964798969}
+  - component: {fileID: 964798970}
   m_Layer: 0
   m_Name: ParcelChecker (2)
   m_TagString: Untagged
@@ -21661,6 +21700,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipToPlay: {fileID: 11400000, guid: 8aaed6d480206e64cb33071194d9c30d, type: 2}
+--- !u!114 &964798970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964798963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1001 &966394985
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30158,6 +30215,7 @@ GameObject:
   - component: {fileID: 1234358205}
   - component: {fileID: 1234358204}
   - component: {fileID: 1234358203}
+  - component: {fileID: 1234358207}
   m_Layer: 0
   m_Name: ParcelChecker (1)
   m_TagString: Untagged
@@ -30267,6 +30325,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1234358201}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1234358207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234358201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1001 &1234364232
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48263,6 +48339,7 @@ GameObject:
   - component: {fileID: 1886348188}
   - component: {fileID: 1886348191}
   - component: {fileID: 1886348192}
+  - component: {fileID: 1886348193}
   m_Layer: 0
   m_Name: ParcelChecker (2)
   m_TagString: Untagged
@@ -48385,6 +48462,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipToPlay: {fileID: 11400000, guid: 432fafbf89ea3c84ea15b84f89a1ac76, type: 2}
+--- !u!114 &1886348193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886348186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1001 &1886726237
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52225,6 +52320,7 @@ GameObject:
   - component: {fileID: 2030095395}
   - component: {fileID: 2030095394}
   - component: {fileID: 2030095397}
+  - component: {fileID: 2030095398}
   m_Layer: 0
   m_Name: ParcelChecker
   m_TagString: Untagged
@@ -52334,6 +52430,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deliverySound: {fileID: 8300000, guid: 22f162556a358ff4381a07625e89ea87, type: 3}
+--- !u!114 &2030095398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030095392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1001 &2032649710
 PrefabInstance:
   m_ObjectHideFlags: 0
