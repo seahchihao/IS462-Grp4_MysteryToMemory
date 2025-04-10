@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63099aaa365ae461898e4e3ff4e53e20, type: 3}
   m_Name: ChildhoodToys
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
-  subtitle: 
+  clip: {fileID: 8300000, guid: b9af1f7527fe6416785067ccd1023203, type: 3}
+  subtitle: Johnny loved building things, his toy blocks were always scattered, mid-adventure.
+    He once built a rocket tower so high it almost reached the ceiling.

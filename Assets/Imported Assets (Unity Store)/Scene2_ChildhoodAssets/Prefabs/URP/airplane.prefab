@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 2797286911511444692}
   - component: {fileID: 3755913185912317136}
   - component: {fileID: -6297497418111181832}
-  - component: {fileID: 1382187695991814936}
-  - component: {fileID: 3325030422324833972}
+  - component: {fileID: 4923343159071651016}
+  - component: {fileID: 1025820922727378802}
   m_Layer: 0
   m_Name: airplane
   m_TagString: Toy
@@ -211,7 +211,7 @@ MonoBehaviour:
   UseCustomInspector: 1
   lastFlickTime: 0
   FlickForce: 1
---- !u!114 &1382187695991814936
+--- !u!114 &4923343159071651016
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipToPlay: {fileID: 11400000, guid: 5c6a1ee52dcce4ec097e10728a50a1fd, type: 2}
---- !u!114 &3325030422324833972
+--- !u!114 &1025820922727378802
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -239,13 +239,13 @@ MonoBehaviour:
   onGrab:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6157795051489891695}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
+      - m_Target: {fileID: 1382187695991814936}
+        m_TargetAssemblyTypeName: NarrationTrigger, Assembly-CSharp
+        m_MethodName: PlayNarration
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
