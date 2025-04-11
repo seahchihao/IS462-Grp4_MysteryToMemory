@@ -106,7 +106,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 439493549550853991}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.0000000090577}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -116,7 +116,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 302.09998, y: -262.1}
+  m_AnchoredPosition: {x: 338, y: -274}
   m_SizeDelta: {x: 160, y: 48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &439493549550852251
@@ -341,7 +341,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 999702314476734589}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -349,8 +349,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 306.1, y: -131.7}
-  m_SizeDelta: {x: 168, y: 212.8}
+  m_AnchoredPosition: {x: 338.1, y: -131.7}
+  m_SizeDelta: {x: 232.1, y: 212.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &999702314476734586
 CanvasRenderer:
@@ -393,10 +393,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Soccer had become more than a childhood memory; it was Johnny\u2019s passion.
-    In this photo, he\u2019s kicking a ball down the corridor of his family\u2019s
-    new home, playing with his brothers. He was the best player in his village, but
-    more than that, he was a kid who loved the game, just like his dad.\n\n\n"
+  m_Text: "Captured by his son, this photo shows Johnny enjoying his usual daily
+    walks in the park, soaking in the quieter and tranquil atmosphere in the park
+    amongst the hustle and bustle of the city. He would often bring his grandchildren
+    on his walks so that they could play at the playground. It always brought smiles
+    seeing his grandchildren play as it reminded him of his youthful days. \n\n\n\n"
 --- !u!1 &1605930575202634870
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,7 +424,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1605930575202634870}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0002}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1.8, y: 1.8, z: 0.9}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -431,7 +432,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -93, y: 6.5}
+  m_AnchoredPosition: {x: -116, y: 6}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5428524915144559686
@@ -462,7 +463,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8b33d52c132af4343ac1e97da07d2f9a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 86294643696a5044e9cf3d10609266c7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -558,7 +559,7 @@ GameObject:
   - component: {fileID: 2609859376680349596}
   - component: {fileID: 5793688761819718492}
   m_Layer: 10
-  m_Name: Adolescence
+  m_Name: OldAge2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -924,7 +925,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d078ea8d826c5457abf8f9cc41b2ea26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clipToPlay: {fileID: 11400000, guid: 9367297e5a5254586899695dba547637, type: 2}
+  clipToPlay: {fileID: 11400000, guid: 45dad13a8dc10654fb9dd19d04f1e745, type: 2}
 --- !u!114 &5793688761819718492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1438,8 +1439,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.013, y: -0.104}
-  m_SizeDelta: {x: 411.5275, y: 323.0295}
+  m_AnchoredPosition: {x: 0, y: -0.104}
+  m_SizeDelta: {x: 470.7038, y: 323.0295}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &7694994927430003907
 Canvas:
@@ -1742,7 +1743,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8b33d52c132af4343ac1e97da07d2f9a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 86294643696a5044e9cf3d10609266c7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
