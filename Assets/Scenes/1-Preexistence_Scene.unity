@@ -1371,6 +1371,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 578509213}
   m_Mesh: {fileID: -2682071100695185198, guid: d612016e74b28d943ab2bedad0694e64, type: 3}
+--- !u!4 &591194353 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3966781999181966216, guid: 4ac7df741a9c0a2418ec19477729ee3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1347391426}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &591194354 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3966781999270109200, guid: 4ac7df741a9c0a2418ec19477729ee3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1347391426}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &601412931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5239,6 +5251,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8638772089269558326, guid: d438cc23d9b8af241b1612661f3938b5,
+        type: 3}
+      propertyPath: SelectedHand
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8638772089269558326, guid: d438cc23d9b8af241b1612661f3938b5,
+        type: 3}
+      propertyPath: LeftPointerTransform
+      value: 
+      objectReference: {fileID: 591194353}
+    - target: {fileID: 8638772089269558326, guid: d438cc23d9b8af241b1612661f3938b5,
+        type: 3}
+      propertyPath: RightPointerTransform
+      value: 
+      objectReference: {fileID: 591194354}
     - target: {fileID: 8638772089269558346, guid: d438cc23d9b8af241b1612661f3938b5,
         type: 3}
       propertyPath: m_Name

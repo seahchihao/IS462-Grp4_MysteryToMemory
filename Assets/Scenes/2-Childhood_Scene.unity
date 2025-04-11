@@ -5472,8 +5472,18 @@ PrefabInstance:
     - target: {fileID: 8638772089269558326, guid: d438cc23d9b8af241b1612661f3938b5,
         type: 3}
       propertyPath: SelectedHand
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8638772089269558326, guid: d438cc23d9b8af241b1612661f3938b5,
+        type: 3}
+      propertyPath: LeftPointerTransform
+      value: 
+      objectReference: {fileID: 1625716960}
+    - target: {fileID: 8638772089269558326, guid: d438cc23d9b8af241b1612661f3938b5,
+        type: 3}
+      propertyPath: RightPointerTransform
+      value: 
+      objectReference: {fileID: 1493802955}
     - target: {fileID: 8638772089269558346, guid: d438cc23d9b8af241b1612661f3938b5,
         type: 3}
       propertyPath: m_Name
@@ -22223,6 +22233,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1493802953}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1493802955 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3966781999270109200, guid: 4ac7df741a9c0a2418ec19477729ee3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1493802953}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1493802956 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5885571433683049865, guid: 4ac7df741a9c0a2418ec19477729ee3d,
@@ -24348,6 +24364,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1625259713}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1625716960 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3966781999181966216, guid: 4ac7df741a9c0a2418ec19477729ee3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1493802953}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1628182850
 GameObject:
   m_ObjectHideFlags: 0

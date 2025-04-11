@@ -18541,6 +18541,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 836172957}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &845105207 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3966781999270109200, guid: 4ac7df741a9c0a2418ec19477729ee3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 998293198}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &845105208 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3966781999181966216, guid: 4ac7df741a9c0a2418ec19477729ee3d,
+    type: 3}
+  m_PrefabInstance: {fileID: 998293198}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &846062378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30845,6 +30857,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneLoaderUI
       objectReference: {fileID: 0}
+    - target: {fileID: 8567922462469741376, guid: 7312ff0d88a2d8744af0631e1221e289,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36166,8 +36183,18 @@ PrefabInstance:
     - target: {fileID: 8638772089269558326, guid: d438cc23d9b8af241b1612661f3938b5,
         type: 3}
       propertyPath: SelectedHand
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8638772089269558326, guid: d438cc23d9b8af241b1612661f3938b5,
+        type: 3}
+      propertyPath: LeftPointerTransform
+      value: 
+      objectReference: {fileID: 845105208}
+    - target: {fileID: 8638772089269558326, guid: d438cc23d9b8af241b1612661f3938b5,
+        type: 3}
+      propertyPath: RightPointerTransform
+      value: 
+      objectReference: {fileID: 845105207}
     - target: {fileID: 8638772089269558346, guid: d438cc23d9b8af241b1612661f3938b5,
         type: 3}
       propertyPath: m_Name
@@ -39286,13 +39313,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 974800418070947584, guid: 4abd892ed7043f4429ae1e38a8a0a304,
         type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.105
+      objectReference: {fileID: 0}
+    - target: {fileID: 974800418070947584, guid: 4abd892ed7043f4429ae1e38a8a0a304,
+        type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -0.021
       objectReference: {fileID: 0}
     - target: {fileID: 974800418070947584, guid: 4abd892ed7043f4429ae1e38a8a0a304,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.081
+      value: 0.164
       objectReference: {fileID: 0}
     - target: {fileID: 974800418070947593, guid: 4abd892ed7043f4429ae1e38a8a0a304,
         type: 3}
