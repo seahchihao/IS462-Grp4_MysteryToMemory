@@ -27007,6 +27007,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Adulthood2
       objectReference: {fileID: 0}
+    - target: {fileID: 4113219058629626008, guid: 1853f9b9be0053b48ae57c539b6b04fc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5793688761819718492, guid: 1853f9b9be0053b48ae57c539b6b04fc,
         type: 3}
       propertyPath: onGrab.m_PersistentCalls.m_Calls.Array.size
@@ -27050,8 +27055,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4113219058629626008, guid: 1853f9b9be0053b48ae57c539b6b04fc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1133531366}
   m_SourcePrefab: {fileID: 100100000, guid: 1853f9b9be0053b48ae57c539b6b04fc, type: 3}
+--- !u!1 &1133531365 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4113219058629626008, guid: 1853f9b9be0053b48ae57c539b6b04fc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1133531364}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1133531366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133531365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394ab586269ce9747b0ee8cc0a9a831c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1136955721
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39665,7 +39692,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1579082614}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 394ab586269ce9747b0ee8cc0a9a831c, type: 3}
   m_Name: 
