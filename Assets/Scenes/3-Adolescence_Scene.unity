@@ -7778,6 +7778,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: soccer-ball
       objectReference: {fileID: 0}
+    - target: {fileID: 1390777141948182, guid: 106db0498aa0841858844b03cd6efeeb, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4026185362238246, guid: 106db0498aa0841858844b03cd6efeeb, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.4243
@@ -9372,6 +9376,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: wrench
+      objectReference: {fileID: 0}
+    - target: {fileID: 8791119396222473468, guid: 4dec5b4b3334ac54a8b9ded4812d6533,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8791119396222568668, guid: 4dec5b4b3334ac54a8b9ded4812d6533,
         type: 3}
@@ -11568,6 +11577,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: microphone
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150091174576279732, guid: 4cff493ed75aed64cbd011800ea7a522,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
