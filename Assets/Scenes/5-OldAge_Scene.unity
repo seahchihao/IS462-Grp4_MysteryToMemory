@@ -1549,6 +1549,46 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5793688761819718492, guid: 75f55148eb2d46b409635d2de539c7eb,
+        type: 3}
+      propertyPath: onGrab.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5793688761819718492, guid: 75f55148eb2d46b409635d2de539c7eb,
+        type: 3}
+      propertyPath: onGrab.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5793688761819718492, guid: 75f55148eb2d46b409635d2de539c7eb,
+        type: 3}
+      propertyPath: onGrab.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1150007992}
+    - target: {fileID: 5793688761819718492, guid: 75f55148eb2d46b409635d2de539c7eb,
+        type: 3}
+      propertyPath: onGrab.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5793688761819718492, guid: 75f55148eb2d46b409635d2de539c7eb,
+        type: 3}
+      propertyPath: onGrab.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 5793688761819718492, guid: 75f55148eb2d46b409635d2de539c7eb,
+        type: 3}
+      propertyPath: onGrab.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5793688761819718492, guid: 75f55148eb2d46b409635d2de539c7eb,
+        type: 3}
+      propertyPath: onGrab.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5793688761819718492, guid: 75f55148eb2d46b409635d2de539c7eb,
+        type: 3}
+      propertyPath: onGrab.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8977807764505807065, guid: 75f55148eb2d46b409635d2de539c7eb,
         type: 3}
       propertyPath: m_Size.x

@@ -961,11 +961,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialColor: {r: 0.2901961, g: 0.29803923, b: 0.2901961, a: 1}
   targetColor: {r: 1, g: 1, b: 1, a: 1}
-  brightenAmount: 0.1
+  brightenAmount: 0.3
   maxBrightness: 1
   vfxPrefab: {fileID: 6403252182692130976, guid: 4e12b3c53c0f8ee4da83655d8d2770d5,
     type: 3}
-  vfxScale: {x: 0.1, y: 0.1, z: 0.1}
+  vfxScale: {x: 0.05, y: 0.05, z: 0.05}
   vfxLifetime: 1
   inactivityDelay: 2
   fadeSpeed: 0.2
