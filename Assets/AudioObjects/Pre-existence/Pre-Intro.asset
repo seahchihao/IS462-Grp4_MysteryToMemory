@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63099aaa365ae461898e4e3ff4e53e20, type: 3}
   m_Name: Pre-Intro
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 7d0b160caf60e4c26ae2af7c3ba6aa8f, type: 3}
-  subtitle: "Every life begins with a story waiting to be told. In this journey,
-    you\u2019ll uncover key memories from each chapter of Johnny\u2019s life. Find
-    the photo that represents each stage, and when you\u2019re ready, press the red
-    button to begin."
+  clip: {fileID: 8300000, guid: 503bc5af8c5f4144cab12bcd0eded922, type: 3}
+  subtitle: "Welcome, dear traveller. You now stand in the space before time \u2014
+    a quiet beginning. Before you lies a stone, holding the weight of a life once
+    lived. Step forward. And when you're ready, awaken the story. In each chapter
+    that follows, a memory awaits \u2014 a photo, once real, now part of what remains.
+    Find it, and witness Johnny\u2019s life, as it was remembered."

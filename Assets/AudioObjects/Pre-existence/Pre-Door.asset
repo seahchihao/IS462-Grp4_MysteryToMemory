@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63099aaa365ae461898e4e3ff4e53e20, type: 3}
   m_Name: Pre-Door
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 8858e5c0d18d84b25aa7f7a3a491212f, type: 3}
-  subtitle: "Let\u2019s begin where all stories start, at childhood. Step through
-    the door, and let\u2019s remember the boy who would grow into the man we all
-    knew and loved."
+  clip: {fileID: 8300000, guid: add49b11f0d4ff346a5fc600a8a7cbbd, type: 3}
+  subtitle: "The light has found its mark. With it, the first door opens. It was
+    always there \u2014 simply unseen. Step to the side, and walk through. Johnny\u2019s
+    story shall begin with the boy he once was."
